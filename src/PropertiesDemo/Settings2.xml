@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Here are some favorites</comment>
+<entry key="fontName">SansSerif</entry>
+<entry key="fontSize">34</entry>
+<entry key="message">XML hello</entry>
+<entry key="fontStyle">BOLD</entry>
+</properties>
+
