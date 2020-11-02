@@ -16,7 +16,7 @@ public class DatagramSender {
                 new InputStreamReader(System.in));
         
         InetAddress toAdr = InetAddress.getLocalHost();
-        int toPort = 55555;
+        int toPort = 32334;
         DatagramSocket socket = new DatagramSocket();
         String message;
         System.out.println("Vad har du på hjärtat? ");

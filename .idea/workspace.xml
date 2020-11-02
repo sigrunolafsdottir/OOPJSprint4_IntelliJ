@@ -1,7 +1,131 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="18526b67-aa36-4898-a215-7ca6898c93b9" name="Default Changelist" comment="" />
+    <list default="true" id="18526b67-aa36-4898-a215-7ca6898c93b9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/CarDemo/Client/CarClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/CarDemo/Server/Car.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/CarDemo/Server/CarServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/CarDemo/Server/Database.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/CarDemoMultiuser/Server/CarServerListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/CarDemoMultiuser/Server/MultiUserCarServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/CarDemoProtocol/Server/CarProtokoll.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/CarDemoProtocol/Server/CarServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ChatDemo2Parts/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ChatDemo2Parts/Receiver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ChatDemo2Parts/Server.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/DatagramCryptoDemo/DatagramCryptoReceiver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/DatagramCryptoDemo/DatagramCryptoSender.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/DatagramDemo/DatagramReceiver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/DatagramDemo/DatagramSender.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/GenericDemo/BoundedBox.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/GenericDemo/Box.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/GenericDemo/OrderedPair.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/GenericDemo/Pair.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/GenericDemo/Util.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/IPtest/ListNetworkInterface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/InetAddressDemo/InetAddressDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/Knockknock/KnockKnockClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/Knockknock/KnockKnockProtocol.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/Knockknock/KnockKnockServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/MiniDemos/clientsends/ReceiveOnlyServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/MiniDemos/clientsends/SendOnlyClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/MiniDemos/serversends/ReceveOnlyClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/MiniDemos/serversends/SendOnlyServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/PropertiesDemo/DemoProperties.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/PropertiesDemo/PropertiesDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/PropertiesDemo/Settings.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/PropertiesDemo/Settings2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ThreadAddressClient/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ThreadAddressServer/Database.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ThreadAddressServer/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ThreadAddressServer/Server.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ThreadAddressServer/ServerListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ThreadDemo/TestPrg$ClientHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ThreadDemo/TestPrg$ServerListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ThreadDemo/TestPrg.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/TicTacToeAdvanced/TicTacToeClient$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/TicTacToeAdvanced/TicTacToeClient$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/TicTacToeAdvanced/TicTacToeClient$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/TicTacToeAdvanced/TicTacToeClient$Square$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/TicTacToeAdvanced/TicTacToeClient$Square.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/TicTacToeAdvanced/TicTacToeClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/TicTacToeAdvanced/TicTacToeClientTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/TicTacToeAdvanced/TicTacToeServer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/TicTacToeAdvanced/TicTacToeServer$Player.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/TicTacToeAdvanced/TicTacToeServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/TicTacToeAdvanced/TicTacToeServerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/TicTacToeSimple/ServerSideGame.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/TicTacToeSimple/ServerSidePlayer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/TicTacToeSimple/TicTacToeClient$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/TicTacToeSimple/TicTacToeClient$Square.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/TicTacToeSimple/TicTacToeClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/TicTacToeSimple/TicTacToeServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/URLConnectionDemo/GetterDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/URLConnectionDemo/PosterDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/URLConnectionDemo/SocketDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/URLDemo/URLDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/URLDemo/URLReaderDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/V3_ÖvnUppg8_Chatt/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/V3_ÖvnUppg8_Chatt/Handler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/V3_ÖvnUppg8_Chatt/MultiWriter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/V3_ÖvnUppg8_Chatt/ServerListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/WildcardDemo/UnBoundWildcardDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/WildcardDemo/UpperBoundWildcardDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg10_Server/Server.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg10_Server/ServerHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg11_KnockKnockThreads/ClientHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg11_KnockKnockThreads/KnockKnockClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg11_KnockKnockThreads/KnockKnockProtocol.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg11_KnockKnockThreads/ServerListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg12_Chatt/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg12_Chatt/Handler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg12_Chatt/MultiWriter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg12_Chatt/ServerListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg13_LetterCount/ÖvnUppg13_LetterCount.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg1_Generics/GenericNumberQueue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg1_Generics/GenericQueue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg1_Generics/IGenericQueue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg1_Generics/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg1_Generics/TX.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg1_Generics/ÖvnUppg1b_Generics.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg2_Citat/QuoteReceiver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg2_Citat/QuoteReceiverThreaded.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg2_Citat/QuoteSender.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg2_Citat/QuoteSenderThreaded.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg2_Citat/ThreadedMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg3_Klasschatt/ChatMultiThreaded.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg3_Klasschatt/ChatSingleThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg3_Klasschatt/MottagareMultiThreaded.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg4a_Väderrapportering/TemperatureCollector.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg4a_Väderrapportering/TemperatureSensor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg4b_Väderrapportering/Mottagare.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg4b_Väderrapportering/TemperatureCollector.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg4b_Väderrapportering/TemperatureSensor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg4b_Väderrapportering/VäderrapporteringKomplexareLösning.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg5_Adressbok/Klient/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg5_Adressbok/Server/DAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg5_Adressbok/Server/Kompis.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg5_Adressbok/Server/Server.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg6_Adressbok/Klient/ObjectClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg6_Adressbok/Server/ObjectServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg7_Adressbok/Klient/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg7_Adressbok/Server/Initiator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg7_Adressbok/Server/Response.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg7_Adressbok/Server/Server.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg8_AdressBok/Klient/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg8_AdressBok/Server/Protokoll.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg8_AdressBok/Server/Server.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg9_Riddles/RiddleClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg9_Riddles/RiddleProtocol.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg9_Riddles/RiddleServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ÖvnUppg2c_TrådadeCitat/QuoteReceiverThreaded.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ÖvnUppg2c_TrådadeCitat/QuoteSenderThreaded.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ÖvnUppg2c_TrådadeCitat/ThreadedMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DatagramDemo/DatagramSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DatagramDemo/DatagramSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InetAddressDemo/InetAddressDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InetAddressDemo/InetAddressDemo.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,27 +134,79 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ÖvnUppg2c_TrådadeCitat/QuoteReceiverThreaded.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ÖvnUppg2c_TrådadeCitat/QuoteSenderThreaded.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ÖvnUppg2c_TrådadeCitat/ThreadedMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="148" />
-    <option name="y" value="35" />
-    <option name="width" value="1617" />
-    <option name="height" value="965" />
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/CarDemo/test.java" />
+        <option value="$PROJECT_DIR$/src/DatagramDemo/DatagramSender.java" />
+        <option value="$PROJECT_DIR$/src/InetAddressDemo/InetAddressDemo.java" />
+        <option value="$PROJECT_DIR$/src/ÖvnUppg2_Citat/QuoteReceiverThreaded.java" />
+        <option value="$PROJECT_DIR$/src/ÖvnUppg2_Citat/QuoteSenderThreaded.java" />
+        <option value="$PROJECT_DIR$/src/ÖvnUppg2_Citat/ThreadedMain.java" />
+        <option value="$PROJECT_DIR$/src/ÖvnUppg2c_TrådadeCitat/ThreadedMain.java" />
+      </list>
+    </option>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="147" />
+    <option name="y" value="35" />
+    <option name="width" value="1623" />
+    <option name="height" value="966" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Course" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -47,22 +223,26 @@
               <item name="OOPJSprint4_IntelliJ" type="b2602c69:ProjectViewProjectNode" />
               <item name="OOPJSprint4_IntelliJ" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="MiniDemos" type="462c0819:PsiDirectoryNode" />
+              <item name="ÖvnUppg2_Citat" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ÖvnUppg2_Citat" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -75,6 +255,89 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager" selected="Application.ThreadedMain">
+    <configuration name="DatagramReceiver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DatagramDemo.DatagramReceiver" />
+      <module name="OOPJSprint4_IntelliJ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DatagramDemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DatagramSender" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DatagramDemo.DatagramSender" />
+      <module name="OOPJSprint4_IntelliJ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DatagramDemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuoteReceiver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ÖvnUppg2_Citat.QuoteReceiver" />
+      <module name="OOPJSprint4_IntelliJ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ÖvnUppg2c_TrådadeCitat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuoteSender" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ÖvnUppg2_Citat.QuoteSender" />
+      <module name="OOPJSprint4_IntelliJ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ÖvnUppg2c_TrådadeCitat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadedMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ÖvnUppg2c_TrådadeCitat.ThreadedMain" />
+      <module name="OOPJSprint4_IntelliJ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ÖvnUppg2c_TrådadeCitat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.DatagramReceiver" />
+      <item itemvalue="Application.DatagramSender" />
+      <item itemvalue="Application.QuoteSender" />
+      <item itemvalue="Application.QuoteReceiver" />
+      <item itemvalue="Application.ThreadedMain" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ThreadedMain" />
+        <item itemvalue="Application.QuoteSender" />
+        <item itemvalue="Application.QuoteReceiver" />
+        <item itemvalue="Application.DatagramReceiver" />
+        <item itemvalue="Application.DatagramSender" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
     <option name="projectSyncType">
@@ -93,54 +356,174 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599206711912</updated>
-      <workItem from="1599206713220" duration="1875000" />
+      <workItem from="1599206713220" duration="2591000" />
+      <workItem from="1599547682870" duration="672000" />
+      <workItem from="1599833072218" duration="1149000" />
+      <workItem from="1604245432247" duration="7153000" />
     </task>
+    <task id="LOCAL-00001" summary="generic demo added">
+      <created>1599211655588</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599211655588</updated>
+    </task>
+    <task id="LOCAL-00002" summary="generic demo added">
+      <created>1599211736005</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599211736005</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1875000" />
+    <option name="totallyTimeSpent" value="11565000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1111" height="591" extended-state="6" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24976258" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22127256" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32826087" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31304348" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Educational.CheckDetails" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19753087" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32826087" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.24347825" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Educational.CheckDetails" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="generic demo added" />
+    <option name="LAST_COMMIT_MESSAGE" value="generic demo added" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../../../../Nätverksprogrammering/kod/Natverksprogrammering1/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="44" lean-forward="true" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CarDemo/test.java" />
+    <entry file="file://$PROJECT_DIR$/src/IPtest/ListNetworkInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="14" column="91" lean-forward="true" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InetAddressDemo/InetAddressDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="22" column="36" lean-forward="true" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DatagramDemo/DatagramSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="26" column="46" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DatagramDemo/DatagramReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ÖvnUppg2_Citat/QuoteReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ÖvnUppg2_Citat/QuoteSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ÖvnUppg2c_TrådadeCitat/ThreadedMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ÖvnUppg2c_TrådadeCitat/QuoteSenderThreaded.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ÖvnUppg2c_TrådadeCitat/QuoteReceiverThreaded.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
