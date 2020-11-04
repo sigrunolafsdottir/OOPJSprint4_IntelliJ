@@ -6,6 +6,12 @@ import java.net.DatagramSocket;
 import java.net.SocketException;
 
 public class QuoteReceiverThreaded implements Runnable {
+
+    String s;
+
+    public QuoteReceiverThreaded(String s){
+        this.s = s;
+    }
     
     public void run(){
         int minPort = 55555;

@@ -1,7 +1,4 @@
-package ÖvnUppg1_Generics;
-
-import ÖvnUppg1_Generics.GenericQueue;
-import ÖvnUppg1_Generics.GenericNumberQueue;
+package ÖvnUppg15_Generics;
 
 
 public class Main {

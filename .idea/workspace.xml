@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18526b67-aa36-4898-a215-7ca6898c93b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/CarDemo/Client/CarClient.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/CarDemo/Server/Car.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/CarDemo/Server/CarServer.class" afterDir="false" />
@@ -90,10 +89,7 @@
       <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg1_Generics/TX.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg1_Generics/ÖvnUppg1b_Generics.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg2_Citat/QuoteReceiver.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg2_Citat/QuoteReceiverThreaded.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg2_Citat/QuoteSender.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg2_Citat/QuoteSenderThreaded.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg2_Citat/ThreadedMain.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg3_Klasschatt/ChatMultiThreaded.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg3_Klasschatt/ChatSingleThread.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg3_Klasschatt/MottagareMultiThreaded.class" afterDir="false" />
@@ -119,12 +115,18 @@
       <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg9_Riddles/RiddleClient.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg9_Riddles/RiddleProtocol.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg9_Riddles/RiddleServer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ÖvnUppg2c_TrådadeCitat/QuoteReceiverThreaded.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ÖvnUppg2c_TrådadeCitat/QuoteSenderThreaded.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ÖvnUppg2c_TrådadeCitat/ThreadedMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DatagramDemo/DatagramSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DatagramDemo/DatagramSender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InetAddressDemo/InetAddressDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InetAddressDemo/InetAddressDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GenericDemo/BoundedBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenericDemo/BoundedBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GenericDemo/Box.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenericDemo/Box.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GenericDemo/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenericDemo/Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ÖvnUppg15_Generics/GenericNumberQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ÖvnUppg15_Generics/GenericNumberQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ÖvnUppg15_Generics/GenericQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ÖvnUppg15_Generics/GenericQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ÖvnUppg15_Generics/IGenericQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ÖvnUppg15_Generics/IGenericQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ÖvnUppg15_Generics/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ÖvnUppg15_Generics/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ÖvnUppg15_Generics/ÖvnUppg1b_Generics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ÖvnUppg15_Generics/ÖvnUppg15b_Generics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ÖvnUppg2c_TrådadeCitat/QuoteReceiverThreaded.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ÖvnUppg2c_TrådadeCitat/QuoteReceiverThreaded.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ÖvnUppg2c_TrådadeCitat/QuoteSenderThreaded.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ÖvnUppg2c_TrådadeCitat/QuoteSenderThreaded.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ÖvnUppg2c_TrådadeCitat/ThreadedMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ÖvnUppg2c_TrådadeCitat/ThreadedMain.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -137,30 +139,57 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ÖvnUppg2c_TrådadeCitat/QuoteReceiverThreaded.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/GenericDemo/Box.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="128">
+              <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ÖvnUppg2c_TrådadeCitat/QuoteSenderThreaded.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ÖvnUppg2c_TrådadeCitat/ThreadedMain.java">
+        <entry file="file://$PROJECT_DIR$/src/GenericDemo/Pair.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/GenericDemo/Util.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/GenericDemo/BoundedBox.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ÖvnUppg15_Generics/ÖvnUppg15b_Generics.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/GenericDemo/OrderedPair.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -186,14 +215,24 @@
         <option value="$PROJECT_DIR$/src/ÖvnUppg2_Citat/QuoteReceiverThreaded.java" />
         <option value="$PROJECT_DIR$/src/ÖvnUppg2_Citat/QuoteSenderThreaded.java" />
         <option value="$PROJECT_DIR$/src/ÖvnUppg2_Citat/ThreadedMain.java" />
+        <option value="$PROJECT_DIR$/src/ÖvnUppg2c_TrådadeCitat/QuoteSenderThreaded.java" />
+        <option value="$PROJECT_DIR$/src/ÖvnUppg2c_TrådadeCitat/QuoteReceiverThreaded.java" />
         <option value="$PROJECT_DIR$/src/ÖvnUppg2c_TrådadeCitat/ThreadedMain.java" />
+        <option value="$PROJECT_DIR$/src/GenericDemo/Util.java" />
+        <option value="$PROJECT_DIR$/src/GenericDemo/Box.java" />
+        <option value="$PROJECT_DIR$/src/GenericDemo/BoundedBox.java" />
+        <option value="$PROJECT_DIR$/src/ÖvnUppg15_Generics/GenericNumberQueue.java" />
+        <option value="$PROJECT_DIR$/src/ÖvnUppg15_Generics/GenericQueue.java" />
+        <option value="$PROJECT_DIR$/src/ÖvnUppg15_Generics/IGenericQueue.java" />
+        <option value="$PROJECT_DIR$/src/ÖvnUppg15_Generics/Main.java" />
+        <option value="$PROJECT_DIR$/src/ÖvnUppg15_Generics/ÖvnUppg1b_Generics.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="147" />
     <option name="y" value="35" />
-    <option name="width" value="1623" />
+    <option name="width" value="1630" />
     <option name="height" value="966" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -204,8 +243,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Course" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -223,12 +260,14 @@
               <item name="OOPJSprint4_IntelliJ" type="b2602c69:ProjectViewProjectNode" />
               <item name="OOPJSprint4_IntelliJ" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ÖvnUppg2_Citat" type="462c0819:PsiDirectoryNode" />
+              <item name="ÖvnUppg15_Generics" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Course" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -256,13 +295,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ThreadedMain">
-    <configuration name="DatagramReceiver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DatagramDemo.DatagramReceiver" />
+  <component name="RunManager" selected="Application.BoundedBox">
+    <configuration name="BoundedBox" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GenericDemo.BoundedBox" />
       <module name="OOPJSprint4_IntelliJ" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DatagramDemo.*" />
+          <option name="PATTERN" value="GenericDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -270,12 +309,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DatagramSender" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DatagramDemo.DatagramSender" />
+    <configuration name="Box" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GenericDemo.Box" />
       <module name="OOPJSprint4_IntelliJ" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DatagramDemo.*" />
+          <option name="PATTERN" value="GenericDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -283,25 +322,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuoteReceiver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ÖvnUppg2_Citat.QuoteReceiver" />
+    <configuration name="GetterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="URLConnectionDemo.GetterDemo" />
       <module name="OOPJSprint4_IntelliJ" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ÖvnUppg2c_TrådadeCitat.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QuoteSender" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ÖvnUppg2_Citat.QuoteSender" />
-      <module name="OOPJSprint4_IntelliJ" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ÖvnUppg2c_TrådadeCitat.*" />
+          <option name="PATTERN" value="URLConnectionDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -322,20 +348,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="URLReaderDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="URLDemo.URLReaderDemo" />
+      <module name="OOPJSprint4_IntelliJ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="URLDemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.DatagramReceiver" />
-      <item itemvalue="Application.DatagramSender" />
-      <item itemvalue="Application.QuoteSender" />
-      <item itemvalue="Application.QuoteReceiver" />
       <item itemvalue="Application.ThreadedMain" />
+      <item itemvalue="Application.Box" />
+      <item itemvalue="Application.URLReaderDemo" />
+      <item itemvalue="Application.GetterDemo" />
+      <item itemvalue="Application.BoundedBox" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BoundedBox" />
+        <item itemvalue="Application.Box" />
+        <item itemvalue="Application.GetterDemo" />
+        <item itemvalue="Application.URLReaderDemo" />
         <item itemvalue="Application.ThreadedMain" />
-        <item itemvalue="Application.QuoteSender" />
-        <item itemvalue="Application.QuoteReceiver" />
-        <item itemvalue="Application.DatagramReceiver" />
-        <item itemvalue="Application.DatagramSender" />
       </list>
     </recent_temporary>
   </component>
@@ -359,7 +398,11 @@
       <workItem from="1599206713220" duration="2591000" />
       <workItem from="1599547682870" duration="672000" />
       <workItem from="1599833072218" duration="1149000" />
-      <workItem from="1604245432247" duration="7153000" />
+      <workItem from="1604245432247" duration="7849000" />
+      <workItem from="1604404891273" duration="647000" />
+      <workItem from="1604406356834" duration="961000" />
+      <workItem from="1604408249854" duration="1625000" />
+      <workItem from="1604480418885" duration="2571000" />
     </task>
     <task id="LOCAL-00001" summary="generic demo added">
       <created>1599211655588</created>
@@ -375,26 +418,33 @@
       <option name="project" value="LOCAL" />
       <updated>1599211736005</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="threaded quote-program added">
+      <created>1604325659495</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604325659495</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11565000" />
+    <option name="totallyTimeSpent" value="18065000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1111" height="591" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22127256" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23836657" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32826087" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31304348" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28913045" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -405,6 +455,7 @@
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32826087" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -453,7 +504,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="generic demo added" />
-    <option name="LAST_COMMIT_MESSAGE" value="generic demo added" />
+    <MESSAGE value="threaded quote-program added" />
+    <option name="LAST_COMMIT_MESSAGE" value="threaded quote-program added" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../../../../Nätverksprogrammering/kod/Natverksprogrammering1/src/com/company/Main.java">
@@ -492,6 +544,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ÖvnUppg2_Citat/QuoteSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ÖvnUppg2_Citat/QuoteReceiver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -499,31 +558,136 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ÖvnUppg2_Citat/QuoteSender.java">
+    <entry file="file://$PROJECT_DIR$/src/ÖvnUppg4b_Väderrapportering/VäderrapporteringKomplexareLösning.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="68">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ÖvnUppg2c_TrådadeCitat/ThreadedMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="85">
+          <caret line="5" column="69" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ÖvnUppg2c_TrådadeCitat/QuoteSenderThreaded.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="51">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ÖvnUppg2c_TrådadeCitat/QuoteReceiverThreaded.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="102">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/URLDemo/URLReaderDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/URLDemo/URLDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/URLConnectionDemo/SocketDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/URLConnectionDemo/PosterDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-136">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GenericDemo/OrderedPair.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/URLConnectionDemo/GetterDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="20" column="55" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GenericDemo/Pair.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GenericDemo/Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GenericDemo/Box.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ÖvnUppg15_Generics/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ÖvnUppg15_Generics/IGenericQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="35" lean-forward="true" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ÖvnUppg15_Generics/GenericQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ÖvnUppg15_Generics/GenericNumberQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GenericDemo/BoundedBox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ÖvnUppg15_Generics/ÖvnUppg15b_Generics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
         </state>
       </provider>
     </entry>

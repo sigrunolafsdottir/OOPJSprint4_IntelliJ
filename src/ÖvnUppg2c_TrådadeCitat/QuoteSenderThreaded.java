@@ -12,6 +12,12 @@ public class QuoteSenderThreaded  implements Runnable {
     final static String quote2 = "Whatever your're thinking, think bigger.";
     final static String quote3 = "Maybe swearing will help?";
 
+    String s;
+
+    public QuoteSenderThreaded(String s){
+        this.s = s;
+    }
+
     
     public void run() {
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
@@ -24,14 +30,21 @@ public class QuoteSenderThreaded  implements Runnable {
         
         try (DatagramSocket socket = new DatagramSocket()) {
             InetAddress toAdr = InetAddress.getLocalHost();
-            while (true) {
+            while (!Thread.interrupted()) {
                 byte[] data = quoteList.get(listCounter).getBytes();
                 DatagramPacket packet = new DatagramPacket(data, data.length, toAdr, toPort);
                 socket.send(packet);
                 listCounter = (listCounter + 1) % quoteList.size();
-                Thread.sleep(3000);
+                try {
+                    Thread.sleep(3000);
+                }
+                catch (InterruptedException e){
+                    e.printStackTrace();
+                    break;
+                }
             }
         }
+
         catch (Exception e){
             e.printStackTrace();
         }

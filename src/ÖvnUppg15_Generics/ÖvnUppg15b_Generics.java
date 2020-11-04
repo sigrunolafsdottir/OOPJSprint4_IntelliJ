@@ -1,4 +1,4 @@
-package ÖvnUppg1_Generics;
+package ÖvnUppg15_Generics;
 
 import GenericDemo.Pair;
 import java.util.Arrays;
@@ -6,7 +6,7 @@ import java.util.List;
 import javax.swing.JFrame;
 
 
-public class ÖvnUppg1b_Generics {
+public class ÖvnUppg15b_Generics {
 
     public static <T> void printList  (List<T> l){
         l.forEach(e -> System.out.print(e.toString()+" "));

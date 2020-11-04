@@ -6,15 +6,15 @@ package GenericDemo;
 public class BoundedBox<T extends String> { // T stands for "Type" 
 	private T t; 
 	
-        public void set(T t) { 
+	public void set(T t) {
 		this.t = t; 
 	} 
 	public T get() { 
 		return t; 
 	} 
         
-        public T doubleUp() { 
-		return (T) (t.concat(t)); 
+	public T doubleUp() {
+		return ((T) (t.concat(t)));
 	} 
         
         
