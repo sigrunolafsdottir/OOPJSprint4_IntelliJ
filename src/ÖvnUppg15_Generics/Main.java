@@ -12,23 +12,27 @@ public class Main {
         Integer i = genQ.take();
         System.out.println("size: "+ genQ.size());
         
-//        GenericQueue <String> genQ2 = new GenericQueue<>();
+        GenericQueue <String> genQ2 = new GenericQueue<>();
 //        
-//        genQ2.put("hej");
-//        genQ2.put("hopp");
-//        String s = genQ2.take();
-//        System.out.println("size: "+ genQ2.size());
+        genQ2.put("hej");
+        genQ2.put("hopp");
+        String s = genQ2.take();
+        System.out.println("size: "+ genQ2.size());
 //        
-//        GenericNumberQueue <Integer> genQ3 = 
-//                new GenericNumberQueue<>();
+        GenericNumberQueue <Integer> genQ3 =
+                new GenericNumberQueue<>();
 //        
-//        genQ3.put(5);
-//        genQ3.put(7);
-//        genQ3.put(3);
-//        Integer i2 = genQ3.take();
-//        System.out.println("size: "+ genQ3.size());
-//        System.out.println("sum: "+ genQ3.getValue());
-//        
+        genQ3.put(5);
+        genQ3.put(7);
+        genQ3.put(3);
+        Integer i2 = genQ3.take();
+        System.out.println("size: "+ genQ3.size());
+        System.out.println("sum: "+ genQ3.getValue2());
+        if (genQ3.getValue2().getClass() == Integer.class) {
+            System.out.println("yes");
+        };
+
+
 //        GenericNumberQueue <Double> genQ4 = new GenericNumberQueue<>();
 //        
 //        genQ4.put(5.7);

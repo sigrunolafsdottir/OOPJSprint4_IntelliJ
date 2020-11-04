@@ -23,8 +23,9 @@ public class UpperBoundWildcardDemo {
     public static void main(String[] args){
         List<Integer> l = Arrays.asList(1, 2, 3);
         System.out.println(sumOfListWildcard(l));
-        //System.out.println(sumOfList2(l));
-        //Number n = new Number();
+
+        //Will not work as l is a List of Integer, not Number
+      //  System.out.println(sumOfList2(l));
     }
     
 }
