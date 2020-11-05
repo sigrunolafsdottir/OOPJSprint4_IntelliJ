@@ -109,18 +109,9 @@
       <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg9_Riddles/RiddleClient.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg9_Riddles/RiddleProtocol.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg9_Riddles/RiddleServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ÖvnUppg2_Citat/QuoteReceiverMulticast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ÖvnUppg2_Citat/QuoteSenderMulticast.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GenericDemo/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenericDemo/Util.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/URLDemo/URLReaderDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/URLDemo/URLReaderDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WildcardDemo/UpperBoundWildcardDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WildcardDemo/UpperBoundWildcardDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ÖvnUppg13_LetterCount/ÖvnUppg13_LetterCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ÖvnUppg13_LetterCount/ÖvnUppg13_LetterCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ÖvnUppg15_Generics/GenericNumberQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ÖvnUppg15_Generics/GenericNumberQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ÖvnUppg15_Generics/ÖvnUppg15b_Generics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ÖvnUppg15_Generics/ÖvnUppg15b_Generics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ÖvnUppg3_Klasschatt/ChatMultiThreaded.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ÖvnUppg3_Klasschatt/ChatMultiThreaded.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ÖvnUppg3_Klasschatt/ChatSingleThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ÖvnUppg3_Klasschatt/ChatSingleThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ÖvnUppg4b_Väderrapportering/TemperatureCollector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ÖvnUppg4b_Väderrapportering/TemperatureCollector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ÖvnUppg4b_Väderrapportering/TemperatureSensor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ÖvnUppg4b_Väderrapportering/TemperatureSensor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ÖvnUppg4b_Väderrapportering/VäderrapporteringKomplexareLösning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ÖvnUppg4b_Väderrapportering/VäderrapporteringKomplexareLösning.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -134,11 +125,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ÖvnUppg4b_Väderrapportering/VäderrapporteringKomplexareLösning.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ÖvnUppg2_Citat/QuoteSenderMulticast.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+            <state relative-caret-position="136">
+              <caret line="27" column="50" lean-forward="true" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ÖvnUppg2_Citat/QuoteReceiverMulticast.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="15" column="39" lean-forward="true" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ÖvnUppg4b_Väderrapportering/TemperatureSensor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="18" column="69" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="18" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ÖvnUppg4b_Väderrapportering/TemperatureCollector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="137">
+              <caret line="15" column="39" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="15" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -191,6 +209,9 @@
         <option value="$PROJECT_DIR$/src/ÖvnUppg4b_Väderrapportering/TemperatureCollector.java" />
         <option value="$PROJECT_DIR$/src/ÖvnUppg4b_Väderrapportering/TemperatureSensor.java" />
         <option value="$PROJECT_DIR$/src/ÖvnUppg4b_Väderrapportering/VäderrapporteringKomplexareLösning.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/ÖvnUppg2_Citat/QuoteReceiverMulticast.java" />
+        <option value="$PROJECT_DIR$/src/ÖvnUppg2_Citat/QuoteSenderMulticast.java" />
       </list>
     </option>
   </component>
@@ -227,6 +248,12 @@
               <item name="OOPJSprint4_IntelliJ" type="b2602c69:ProjectViewProjectNode" />
               <item name="OOPJSprint4_IntelliJ" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ÖvnUppg2_Citat" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OOPJSprint4_IntelliJ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OOPJSprint4_IntelliJ" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ÖvnUppg3_Klasschatt" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -234,25 +261,6 @@
               <item name="OOPJSprint4_IntelliJ" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ÖvnUppg4b_Väderrapportering" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OOPJSprint4_IntelliJ" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OOPJSprint4_IntelliJ" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ÖvnUppg4b_Väderrapportering" type="462c0819:PsiDirectoryNode" />
-              <item name="VäderrapporteringKomplexareLösning.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="OOPJSprint4_IntelliJ" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OOPJSprint4_IntelliJ" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ÖvnUppg13_LetterCount" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OOPJSprint4_IntelliJ" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OOPJSprint4_IntelliJ" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ÖvnUppg15_Generics" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -285,13 +293,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.VäderrapporteringKomplexareLösning">
-    <configuration name="ChatMultiThreaded" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ÖvnUppg3_Klasschatt.ChatMultiThreaded" />
+  <component name="RunManager" selected="Application.QuoteReceiverMulticast">
+    <configuration name="QuoteReceiverMulticast" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ÖvnUppg2_Citat.QuoteReceiverMulticast" />
       <module name="OOPJSprint4_IntelliJ" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ÖvnUppg3_Klasschatt.*" />
+          <option name="PATTERN" value="ÖvnUppg2_Citat.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -299,12 +307,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChatSingleThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ÖvnUppg3_Klasschatt.ChatSingleThread" />
+    <configuration name="QuoteSenderMulticast" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ÖvnUppg2_Citat.QuoteSenderMulticast" />
       <module name="OOPJSprint4_IntelliJ" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ÖvnUppg3_Klasschatt.*" />
+          <option name="PATTERN" value="ÖvnUppg2_Citat.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -352,19 +360,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ChatSingleThread" />
-      <item itemvalue="Application.ChatMultiThreaded" />
       <item itemvalue="Application.TemperatureSensor" />
       <item itemvalue="Application.TemperatureCollector" />
       <item itemvalue="Application.VäderrapporteringKomplexareLösning" />
+      <item itemvalue="Application.QuoteSenderMulticast" />
+      <item itemvalue="Application.QuoteReceiverMulticast" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.VäderrapporteringKomplexareLösning" />
+        <item itemvalue="Application.QuoteReceiverMulticast" />
+        <item itemvalue="Application.QuoteSenderMulticast" />
         <item itemvalue="Application.TemperatureCollector" />
         <item itemvalue="Application.TemperatureSensor" />
-        <item itemvalue="Application.ChatMultiThreaded" />
-        <item itemvalue="Application.ChatSingleThread" />
+        <item itemvalue="Application.VäderrapporteringKomplexareLösning" />
       </list>
     </recent_temporary>
   </component>
@@ -393,7 +401,7 @@
       <workItem from="1604406356834" duration="961000" />
       <workItem from="1604408249854" duration="1625000" />
       <workItem from="1604480418885" duration="16411000" />
-      <workItem from="1604559556512" duration="292000" />
+      <workItem from="1604559556512" duration="2270000" />
     </task>
     <task id="LOCAL-00001" summary="generic demo added">
       <created>1599211655588</created>
@@ -430,16 +438,30 @@
       <option name="project" value="LOCAL" />
       <updated>1604488289287</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fixed joinGroup">
+      <created>1604559894313</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1604559894313</updated>
+    </task>
+    <task id="LOCAL-00007" summary="added gitignore">
+      <created>1604560060797</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1604560060797</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32197000" />
+    <option name="totallyTimeSpent" value="34175000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1111" height="591" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2431149" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1994302" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -448,7 +470,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37608695" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2630435" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -510,7 +532,9 @@
     <MESSAGE value="generic demo added" />
     <MESSAGE value="threaded quote-program added" />
     <MESSAGE value="Cleanup generics" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cleanup generics" />
+    <MESSAGE value="fixed joinGroup" />
+    <MESSAGE value="added gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="added gitignore" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../../../../Nätverksprogrammering/kod/Natverksprogrammering1/src/com/company/Main.java">
@@ -546,13 +570,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-17">
           <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ÖvnUppg2_Citat/QuoteReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -731,31 +748,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ÖvnUppg3_Klasschatt/ChatSingleThread.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="38" column="50" lean-forward="true" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ÖvnUppg4b_Väderrapportering/TemperatureSensor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ÖvnUppg4b_Väderrapportering/TemperatureCollector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="13" column="69" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="13" selection-end-column="69" />
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ÖvnUppg4b_Väderrapportering/VäderrapporteringKomplexareLösning.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        <state relative-caret-position="34">
+          <caret line="38" column="45" lean-forward="true" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ÖvnUppg2_Citat/QuoteReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ÖvnUppg3_Klasschatt/ChatSingleThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="868">
+          <caret line="80" column="33" selection-start-line="80" selection-start-column="29" selection-end-line="80" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ÖvnUppg4b_Väderrapportering/TemperatureCollector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="15" column="39" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="15" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ÖvnUppg4b_Väderrapportering/TemperatureSensor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="18" column="69" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="18" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ÖvnUppg2_Citat/QuoteSenderMulticast.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="27" column="50" lean-forward="true" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ÖvnUppg2_Citat/QuoteReceiverMulticast.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="15" column="39" lean-forward="true" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
         </state>
       </provider>
     </entry>
