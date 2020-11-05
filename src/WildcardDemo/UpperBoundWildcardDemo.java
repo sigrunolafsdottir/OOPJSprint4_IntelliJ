@@ -25,7 +25,7 @@ public class UpperBoundWildcardDemo {
         System.out.println(sumOfListWildcard(l));
 
         //Will not work as l is a List of Integer, not Number
-      //  System.out.println(sumOfList2(l));
+        //System.out.println(sumOfList2(l));
     }
     
 }

@@ -11,7 +11,7 @@ public class ÖvnUppg13_LetterCount {
     public ÖvnUppg13_LetterCount () {
 
         String temp;
-        int[] fördelning = new int[1000];
+        int[] fördelning = new int[100];
         int total = 0;
 
         try{
@@ -20,7 +20,6 @@ public class ÖvnUppg13_LetterCount {
             try (BufferedReader in = new BufferedReader(
                     new InputStreamReader(url.openStream()))) {
                 while ((temp = in.readLine()) != null ){
-                    //System.out.println(temp);
                     int size = temp.length();
                     fördelning[size]++;
                     total++;

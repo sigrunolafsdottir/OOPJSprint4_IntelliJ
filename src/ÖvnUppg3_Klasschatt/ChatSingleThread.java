@@ -4,9 +4,7 @@ import java.awt.BorderLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.IOException;
-import java.net.DatagramPacket;
-import java.net.InetAddress;
-import java.net.MulticastSocket;
+import java.net.*;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JScrollPane;
@@ -30,15 +28,19 @@ public class ChatSingleThread extends JFrame implements ActionListener {
     JTextField skriv = new JTextField();
     JButton sluta = new JButton("Koppla ner");
     Timer timer = new Timer(10000, this);
-    
+    InetSocketAddress group;
+    NetworkInterface netIf = NetworkInterface.getByName("wlan1");
+
     public ChatSingleThread(String användarnamn, 
             String gruppadr, int portNr) throws IOException{
         namn = användarnamn;
         iadr = InetAddress.getByName(gruppadr);
         port = portNr;
+        group = new InetSocketAddress(iadr, port);
         
         so = new MulticastSocket(port);
-        so.joinGroup(iadr);
+
+        so.joinGroup(group, netIf);
         sändMedd("UPPKOPPLAD");
         
         setTitle("Chat "+namn);
@@ -95,7 +97,7 @@ public class ChatSingleThread extends JFrame implements ActionListener {
         else if(e.getSource() == sluta){
             sändMedd("NEDKOPPLAD");
             try {
-                so.leaveGroup(iadr);
+                so.leaveGroup(group, netIf);
             }
             catch (IOException ie){
                 so.close();

@@ -9,8 +9,8 @@ import javax.swing.JFrame;
 public class ÖvnUppg15b_Generics {
 
     public static <T> void printList  (List<T> l){
-        l.forEach(e -> System.out.print(e.toString()+" "));
-        System.out.println();
+        //l.forEach(e -> System.out.print(e.toString()+" "));
+        //System.out.println();
         
         //alternativt sätt att skriva for-loopen
         for (T e : l){
@@ -20,12 +20,12 @@ public class ÖvnUppg15b_Generics {
     }
     
     public static void printList2 (List<? extends String> l){
-        l.forEach(e -> System.out.print(e.toString()+" "));
-        System.out.println();
+      //  l.forEach(e -> System.out.print(e+" "));
+        //System.out.println();
         
         //alternativt sätt att skriva for-loopen
         for (String e : l){
-            System.out.print(e.toString()+" ");
+            System.out.print(e+" ");
         }
         System.out.println();
     }
@@ -40,7 +40,7 @@ public class ÖvnUppg15b_Generics {
         printList(intlist);
         printList(objlist);
         
-        //printList2(stringlist);
+        printList2(stringlist);
         //printList2(intlist);
         //printList2(objlist);
     }

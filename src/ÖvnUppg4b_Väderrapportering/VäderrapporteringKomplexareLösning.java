@@ -19,6 +19,8 @@ package ÖvnUppg4b_Väderrapportering;
       throws UnknownHostException, IOException {
          iadr = InetAddress.getByName(gruppAdress);
          port = portNr;
+         InetSocketAddress group = new InetSocketAddress(iadr, port);
+         NetworkInterface netIf = NetworkInterface.getByName("wlan1");
       
          // ordna fönstrets layout
          setTitle("Rapportera temperatur");
@@ -33,7 +35,7 @@ package ÖvnUppg4b_Väderrapportering;
          setDefaultCloseOperation(EXIT_ON_CLOSE);
 
          socket = new MulticastSocket(port);
-         socket.joinGroup(iadr);
+         socket.joinGroup(group, netIf);
          Mottagare m = new Mottagare(socket);
          Point p = getLocationOnScreen();
          p.translate(getSize().width, 0);  // placera mottagaren till höger om detta fönster
@@ -69,6 +71,8 @@ package ÖvnUppg4b_Väderrapportering;
       final int ortLängd=10;
       final int temLängd=6;
       Thread aktivitet = new Thread(this);
+
+
       MulticastSocket so;  
       JTextArea ta = new JTextArea("", 0, 0);
       JScrollPane sp = new JScrollPane(ta);

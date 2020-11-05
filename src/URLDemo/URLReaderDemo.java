@@ -8,13 +8,11 @@ public class URLReaderDemo {
 
         URL boken = new URL("http://skansholm.com/java_dir/");
         BufferedReader in = new BufferedReader(
-        new InputStreamReader(boken.openStream()));
+            new InputStreamReader(boken.openStream()));
 
         String inputLine;
         while ((inputLine = in.readLine()) != null)
             System.out.println(inputLine);
         in.close();
-        
-
     }
 }

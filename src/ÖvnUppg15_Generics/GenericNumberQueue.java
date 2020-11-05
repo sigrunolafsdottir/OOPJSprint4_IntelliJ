@@ -26,7 +26,7 @@ public class GenericNumberQueue <T extends Number>
     }
 
     
-    public T getValue(){
+    public T getValueLastCastNotWorking(){
         Double sum = 0.0;
         //Number sum = 0;
 
@@ -48,14 +48,14 @@ public class GenericNumberQueue <T extends Number>
             if (innerList.get(0).getClass() == Long.class) {
                 Long sum = 0L;
                 for (T t : innerList) {
-                    sum += t.intValue();
+                    sum += t.longValue();
                 }
                 return (T) sum;
             }
             if (innerList.get(0).getClass() == Double.class) {
                 Double sum = 0.0;
                 for (T t : innerList) {
-                    sum += t.intValue();
+                    sum += t.doubleValue();
                 }
                 return (T) sum;
             }

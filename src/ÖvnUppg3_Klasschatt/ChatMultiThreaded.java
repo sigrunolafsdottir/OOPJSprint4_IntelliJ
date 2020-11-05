@@ -4,9 +4,7 @@ import java.awt.BorderLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.IOException;
-import java.net.DatagramPacket;
-import java.net.InetAddress;
-import java.net.MulticastSocket;
+import java.net.*;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JScrollPane;
@@ -24,15 +22,18 @@ public class ChatMultiThreaded extends JFrame implements ActionListener {
     JScrollPane sp = new JScrollPane(txt);
     JTextField skriv = new JTextField();
     JButton sluta = new JButton("Koppla ner");
+    InetSocketAddress group;
+    NetworkInterface netIf = NetworkInterface.getByName("wlan1");
     
     public ChatMultiThreaded(String användarnamn, 
             String gruppadr, int portNr) throws IOException{
         namn = användarnamn;
         iadr = InetAddress.getByName(gruppadr);
         port = portNr;
+        group = new InetSocketAddress(iadr, port);
         
         so = new MulticastSocket(port);
-        so.joinGroup(iadr);
+        so.joinGroup(group, netIf);
         new MottagareMultiThreaded(so, txt);
         
         sändMedd("UPPKOPPLAD");
@@ -70,7 +71,7 @@ public class ChatMultiThreaded extends JFrame implements ActionListener {
         else if(e.getSource() == sluta){
             sändMedd("NEDKOPPLAD");
             try {
-                so.leaveGroup(iadr);
+                so.leaveGroup(group, netIf);
             }
             catch (IOException ie){
                 so.close();
