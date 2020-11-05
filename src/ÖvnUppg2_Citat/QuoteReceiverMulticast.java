@@ -18,7 +18,6 @@ public class QuoteReceiverMulticast {
         byte[] data = new byte[256];
         while(true){
             DatagramPacket packet = new DatagramPacket(data, data.length);
-            System.out.println("waiting to receive");
             socket.receive(packet);
             String message = new String(packet.getData(), 0, packet.getLength());
             System.out.println(message);

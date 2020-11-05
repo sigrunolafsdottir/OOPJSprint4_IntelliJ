@@ -27,7 +27,6 @@ public class QuoteSenderMulticast {
         InetSocketAddress group = new InetSocketAddress(toAdr, toPort);
         NetworkInterface netIf = NetworkInterface.getByName("wlan1");
 
-
         MulticastSocket socket = new MulticastSocket();
         socket.joinGroup(group, netIf);
 
@@ -35,7 +34,6 @@ public class QuoteSenderMulticast {
             byte[] data = quoteList.get(listCounter).getBytes();
             DatagramPacket packet = new DatagramPacket(data, data.length, toAdr, toPort);
             socket.send(packet);
-            System.out.println("sending "+quoteList.get(listCounter));
             listCounter = (listCounter + 1) % 3;
             Thread.sleep(3000);
         } 
