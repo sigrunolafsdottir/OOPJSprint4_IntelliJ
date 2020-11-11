@@ -32,8 +32,7 @@ public class Client {
 
                 if (fromServer instanceof Initiator){
                     System.out.println("Connection setup complete");
-                    System.out.println("What person would you "
-                            + "like to look up?");
+
                 }
                 else if (fromServer instanceof Response){
                     if (!((Response) fromServer).getSuccess()){
@@ -43,12 +42,15 @@ public class Client {
                     else{
                         System.out.println(((Response) fromServer)
                                 .getPerson().getAddress());
+
                     }
                 }
+                System.out.println("What person would you "
+                        + "like to look up?");
 
                 fromUser = stdIn.readLine();
                 if (fromUser != null) {
-                    System.out.println("Client: " + fromUser);
+                    //System.out.println("Client: " + fromUser);
                     oos.writeObject(fromUser);
                 }
             }

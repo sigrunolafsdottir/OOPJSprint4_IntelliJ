@@ -34,7 +34,7 @@ import java.net.Socket;
             this.game = game;
             try {
                 input = new BufferedReader(
-                new InputStreamReader(socket.getInputStream()));
+                    new InputStreamReader(socket.getInputStream()));
                 output = new PrintWriter(socket.getOutputStream(), true);
                 output.println("WELCOME " + mark);
                 output.println("MESSAGE Waiting for opponent to connect");
@@ -50,13 +50,18 @@ import java.net.Socket;
             this.opponent = opponent;
         }
 
+       /**
+        * Returns the opponent.
+        */
+       public ServerSidePlayer getOpponent() {
+           return opponent;
+       }
+
         /**
          * Handles the otherPlayerMoved message.
          */
         public void otherPlayerMoved(int location) {
             output.println("OPPONENT_MOVED " + location);
-            //output.println(
-             //   game.hasWinner() ? "DEFEAT" : (game.boardFilledUp() ? "TIE" : ""));
         
             if (game.hasWinner()){
                 output.println("DEFEAT");
@@ -69,10 +74,7 @@ import java.net.Socket;
                     output.println("");
                 }
             }
-            //)       
-                    
-                    
-                    }
+        }
 
         /**
          * The run method of this thread.

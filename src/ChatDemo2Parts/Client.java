@@ -30,8 +30,7 @@ public class Client {
         BufferedReader stdIn =
                 new BufferedReader(new InputStreamReader(System.in));
              
-        //out.println("Vilken bil vill du slå upp");
-        
+
         Receiver rec = new Receiver(in, "Server");
             rec.start();
         

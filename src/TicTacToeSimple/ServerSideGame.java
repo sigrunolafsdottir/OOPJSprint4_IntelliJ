@@ -64,7 +64,7 @@ class ServerSideGame {
     public synchronized boolean legalMove(int location, ServerSidePlayer player) {
         if (player == currentPlayer && board[location] == null) {
             board[location] = currentPlayer;
-            currentPlayer = currentPlayer.opponent;
+            currentPlayer = currentPlayer.getOpponent();
             currentPlayer.otherPlayerMoved(location);
             return true;
         }

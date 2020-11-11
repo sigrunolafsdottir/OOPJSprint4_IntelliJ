@@ -12,7 +12,7 @@ import java.net.Socket;
 public class ReceiveOnlyServer {
     
     
-        public ReceiveOnlyServer(){
+    public ReceiveOnlyServer(){
         int portNumber = 12345;
         
 

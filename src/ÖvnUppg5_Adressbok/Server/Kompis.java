@@ -3,7 +3,6 @@ package ÖvnUppg5_Adressbok.Server;
 import java.io.Serializable;
 import java.time.LocalDate;
 
-//only available backend
 public class Kompis implements Serializable{
     
     protected String name;

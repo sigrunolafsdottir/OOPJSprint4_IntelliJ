@@ -58,9 +58,6 @@ public class ChatSingleThread extends JFrame implements ActionListener {
         byte[] data = new byte[1024];
         while(true){
             try{
-//                System.out.println("received, "
-//                        + "is EventDispatchThread: "
-//        + javax.swing.SwingUtilities.isEventDispatchThread());
                 DatagramPacket packet = new DatagramPacket(data, 
                         data.length);
                 so.receive(packet);

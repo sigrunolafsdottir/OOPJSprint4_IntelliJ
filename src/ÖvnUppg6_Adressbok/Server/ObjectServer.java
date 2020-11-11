@@ -34,11 +34,9 @@ public class ObjectServer {
 
            while ((inputLine = (String)ois.readObject()) != null) {
                
-                outputPerson = d.getPersonByName(((String)inputLine)
-                        .trim());
+                outputPerson = d.getPersonByName(((String)inputLine).trim());
                 if (outputPerson == null){
-                    //String n = "Denna person finns inte i databasen";
-                    oos.writeObject(new Kompis("Null", 
+                    oos.writeObject(new Kompis("Null",
                             "Denna person finns inte i databasen",
                             LocalDate.of(1967, Month.SEPTEMBER, 27)));
                 }

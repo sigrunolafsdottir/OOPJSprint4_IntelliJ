@@ -12,8 +12,8 @@ public class PropertiesDemo extends JFrame {
     public PropertiesDemo()  {
         Properties p = new Properties();
         try{
-            //p.load(new FileInputStream("src/PropertiesDemo/DemoProperties.properties"));
-            p.loadFromXML(new FileInputStream("src/PropertiesDemo/Settings2.xml"));
+            p.load(new FileInputStream("src/PropertiesDemo/DemoProperties.properties"));
+            //p.loadFromXML(new FileInputStream("src/PropertiesDemo/Settings2.xml"));
         }
         catch (Exception e){
            e.printStackTrace();

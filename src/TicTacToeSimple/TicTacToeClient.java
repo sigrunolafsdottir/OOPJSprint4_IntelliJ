@@ -142,19 +142,15 @@ public TicTacToeClient(String serverAddress) throws Exception {
 
     /**
      * Graphical square in the client window.  Each square is
-     * a white panel containing.  A client calls setIcon() to fill
-     * it with an Icon, presumably an X or O.
+     * a white panel containing.  A client calls setText() to fill
+     * it with an X or O.
      */
      static class Square extends JPanel {
-        JLabel label = new JLabel((Icon)null);
+        JLabel label = new JLabel();
 
         public Square() {
             setBackground(Color.white);
             add(label);
-        }
-
-        public void setIcon(Icon icon) {
-            label.setIcon(icon);
         }
         
         public void setText(String s) {

@@ -83,7 +83,7 @@ public class ChatMultiThreaded extends JFrame implements ActionListener {
     }
     
     public static void main (String[] args) throws IOException{
-        String namn = "Sigrun";
+        String namn = "Nisse";
         //Chat c = new Chat(namn, "234.235.236.237", 12540);
         ChatMultiThreaded c = new ChatMultiThreaded(namn, 
                 "234.235.236.237", 12540);
