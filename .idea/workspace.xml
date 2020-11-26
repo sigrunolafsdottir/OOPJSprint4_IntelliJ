@@ -27,6 +27,9 @@
       <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/Knockknock/KnockKnockClient.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/Knockknock/KnockKnockProtocol.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/Knockknock/KnockKnockServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/LiveCodingSimpleClientSends/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/LiveCodingSimpleClientSends/Server.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/META-INF/OOPJSprint4_IntelliJ.kotlin_module" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/MiniDemos/clientsends/ReceiveOnlyServer.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/MiniDemos/clientsends/SendOnlyClient.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/MiniDemos/serversends/ReceveOnlyClient.class" afterDir="false" />
@@ -35,6 +38,10 @@
       <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/PropertiesDemo/PropertiesDemo.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/PropertiesDemo/Settings.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/PropertiesDemo/Settings2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/QuoteMulticastLive/QuoteReceiver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/QuoteMulticastLive/QuoteSender.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/TestPackage/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/TestPackage/Server.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ThreadAddressClient/Client.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ThreadAddressServer/Database.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ThreadAddressServer/Person.class" afterDir="false" />
@@ -82,8 +89,19 @@
       <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg12_Chatt/MultiWriter.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg12_Chatt/ServerListener.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg13_LetterCount/ÖvnUppg13_LetterCount.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg15_Generics/GenericNumberQueue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg15_Generics/GenericQueue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg15_Generics/IGenericQueue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg15_Generics/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg15_Generics/TX.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg15_Generics/ÖvnUppg15b_Generics.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg2_Citat/QuoteReceiver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg2_Citat/QuoteReceiverMulticast.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg2_Citat/QuoteSender.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg2_Citat/QuoteSenderMulticast.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg2c_TrådadeCitat/QuoteReceiverThreaded.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg2c_TrådadeCitat/QuoteSenderThreaded.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg2c_TrådadeCitat/ThreadedMain.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg3_Klasschatt/ChatMultiThreaded.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg3_Klasschatt/ChatSingleThread.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg3_Klasschatt/MottagareMultiThreaded.class" afterDir="false" />
@@ -109,27 +127,11 @@
       <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg9_Riddles/RiddleClient.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg9_Riddles/RiddleProtocol.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/OOPJSprint4_IntelliJ/ÖvnUppg9_Riddles/RiddleServer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LiveCodingSimpleClientSends/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LiveCodingSimpleClientSends/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QuoteMulticastLive/QuoteReceiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QuoteMulticastLive/QuoteSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestPackage/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestPackage/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RegexpDemo/RegexTestHarness.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ChatDemo2Parts/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChatDemo2Parts/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Knockknock/KnockKnockClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Knockknock/KnockKnockClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MiniDemos/clientsends/ReceiveOnlyServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MiniDemos/clientsends/ReceiveOnlyServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PropertiesDemo/DemoProperties.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/PropertiesDemo/DemoProperties.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PropertiesDemo/PropertiesDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PropertiesDemo/PropertiesDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PropertiesDemo/Settings2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/PropertiesDemo/Settings2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TicTacToeSimple/ServerSideGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToeSimple/ServerSideGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TicTacToeSimple/ServerSidePlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToeSimple/ServerSidePlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TicTacToeSimple/TicTacToeClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToeSimple/TicTacToeClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ÖvnUppg3_Klasschatt/ChatMultiThreaded.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ÖvnUppg3_Klasschatt/ChatMultiThreaded.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ÖvnUppg3_Klasschatt/ChatSingleThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ÖvnUppg3_Klasschatt/ChatSingleThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ÖvnUppg4b_Väderrapportering/TemperatureCollector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ÖvnUppg4b_Väderrapportering/TemperatureCollector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ÖvnUppg5_Adressbok/Server/Kompis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ÖvnUppg5_Adressbok/Server/Kompis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ÖvnUppg6_Adressbok/Server/ObjectServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ÖvnUppg6_Adressbok/Server/ObjectServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ÖvnUppg7_Adressbok/Klient/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ÖvnUppg7_Adressbok/Klient/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TicTacToeSimple/TicTacToeServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToeSimple/TicTacToeServer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -143,38 +145,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TicTacToeSimple/TicTacToeClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1623">
-              <caret line="70" column="56" lean-forward="true" selection-start-line="70" selection-start-column="56" selection-end-line="70" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TicTacToeSimple/ServerSidePlayer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="53" column="30" lean-forward="true" selection-start-line="53" selection-start-column="30" selection-end-line="53" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/TicTacToeSimple/ServerSideGame.java">
+        <entry file="file://$PROJECT_DIR$/src/RegexpDemo/RegexTestHarness.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TicTacToeSimple/TicTacToeServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="22" column="2" lean-forward="true" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+            <state relative-caret-position="112">
+              <caret line="25" column="33" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -206,6 +184,7 @@
       <find>win</find>
       <find>square</find>
       <find>opponent</find>
+      <find>game</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -214,10 +193,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ÖvnUppg2_Citat/ThreadedMain.java" />
-        <option value="$PROJECT_DIR$/src/ÖvnUppg2c_TrådadeCitat/QuoteSenderThreaded.java" />
-        <option value="$PROJECT_DIR$/src/ÖvnUppg2c_TrådadeCitat/QuoteReceiverThreaded.java" />
-        <option value="$PROJECT_DIR$/src/ÖvnUppg2c_TrådadeCitat/ThreadedMain.java" />
         <option value="$PROJECT_DIR$/src/GenericDemo/Box.java" />
         <option value="$PROJECT_DIR$/src/GenericDemo/BoundedBox.java" />
         <option value="$PROJECT_DIR$/src/ÖvnUppg15_Generics/GenericQueue.java" />
@@ -260,18 +235,22 @@
         <option value="$PROJECT_DIR$/src/ÖvnUppg7_Adressbok/Klient/Client.java" />
         <option value="$PROJECT_DIR$/src/Knockknock/KnockKnockClient.java" />
         <option value="$PROJECT_DIR$/src/PropertiesDemo/Settings2.xml" />
-        <option value="$PROJECT_DIR$/src/PropertiesDemo/PropertiesDemo.java" />
         <option value="$PROJECT_DIR$/src/ChatDemo2Parts/Client.java" />
         <option value="$PROJECT_DIR$/src/TicTacToeSimple/TicTacToeClient.java" />
         <option value="$PROJECT_DIR$/src/TicTacToeSimple/ServerSidePlayer.java" />
         <option value="$PROJECT_DIR$/src/TicTacToeSimple/ServerSideGame.java" />
+        <option value="$PROJECT_DIR$/src/PropertiesDemo/DemoProperties.properties" />
+        <option value="$PROJECT_DIR$/src/PropertiesDemo/PropertiesDemo.java" />
+        <option value="$PROJECT_DIR$/src/TicTacToeSimple/TicTacToeServer.java" />
+        <option value="$PROJECT_DIR$/src/RegexpDemo/RegexpTestHarness.java" />
+        <option value="$PROJECT_DIR$/src/RegexpDemo/RegexTestHarness.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="147" />
     <option name="y" value="35" />
-    <option name="width" value="1637" />
+    <option name="width" value="1647" />
     <option name="height" value="966" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -283,7 +262,6 @@
     </navigator>
     <panes>
       <pane id="Course" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -300,26 +278,7 @@
               <item name="OOPJSprint4_IntelliJ" type="b2602c69:ProjectViewProjectNode" />
               <item name="OOPJSprint4_IntelliJ" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="CarDemo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OOPJSprint4_IntelliJ" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OOPJSprint4_IntelliJ" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="CarDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="Client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OOPJSprint4_IntelliJ" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OOPJSprint4_IntelliJ" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OOPJSprint4_IntelliJ" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OOPJSprint4_IntelliJ" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ChatDemo2Parts" type="462c0819:PsiDirectoryNode" />
+              <item name="RegexpDemo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OOPJSprint4_IntelliJ" type="b2602c69:ProjectViewProjectNode" />
@@ -327,11 +286,18 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="TicTacToeSimple" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="OOPJSprint4_IntelliJ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OOPJSprint4_IntelliJ" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ÖvnUppg12_Chatt" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -362,7 +328,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TicTacToeClient">
+  <component name="RunManager" selected="Application.RegexTestHarness">
     <configuration name="Client (1)" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ÖvnUppg12_Chatt.Client" />
       <module name="OOPJSprint4_IntelliJ" />
@@ -376,12 +342,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ChatDemo2Parts.Client" />
+    <configuration name="PropertiesDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PropertiesDemo.PropertiesDemo" />
       <module name="OOPJSprint4_IntelliJ" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ChatDemo2Parts.*" />
+          <option name="PATTERN" value="PropertiesDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -389,12 +355,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ServerListener" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ÖvnUppg12_Chatt.ServerListener" />
+    <configuration name="RegexTestHarness" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RegexpDemo.RegexTestHarness" />
       <module name="OOPJSprint4_IntelliJ" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ÖvnUppg12_Chatt.*" />
+          <option name="PATTERN" value="RegexpDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -429,19 +395,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Client" />
-      <item itemvalue="Application.ServerListener" />
       <item itemvalue="Application.Client (1)" />
       <item itemvalue="Application.TicTacToeServer" />
       <item itemvalue="Application.TicTacToeClient" />
+      <item itemvalue="Application.PropertiesDemo" />
+      <item itemvalue="Application.RegexTestHarness" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RegexTestHarness" />
         <item itemvalue="Application.TicTacToeClient" />
         <item itemvalue="Application.TicTacToeServer" />
+        <item itemvalue="Application.PropertiesDemo" />
         <item itemvalue="Application.Client (1)" />
-        <item itemvalue="Application.ServerListener" />
-        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -473,7 +439,13 @@
       <workItem from="1604559556512" duration="6274000" />
       <workItem from="1604569110083" duration="50000" />
       <workItem from="1604569521291" duration="12183000" />
-      <workItem from="1604904284555" duration="22162000" />
+      <workItem from="1604904284555" duration="22234000" />
+      <workItem from="1605097864071" duration="5605000" />
+      <workItem from="1605622674013" duration="17000" />
+      <workItem from="1605684696525" duration="4779000" />
+      <workItem from="1605875225739" duration="2593000" />
+      <workItem from="1606136022969" duration="17000" />
+      <workItem from="1606380618840" duration="2663000" />
     </task>
     <task id="LOCAL-00001" summary="generic demo added">
       <created>1599211655588</created>
@@ -538,17 +510,24 @@
       <option name="project" value="LOCAL" />
       <updated>1604562200170</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="cleanup, added live coded stuff">
+      <created>1605090013236</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1605090013236</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72574000" />
+    <option name="totallyTimeSpent" value="88320000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1111" height="591" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16239317" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24786325" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -557,7 +536,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27826086" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31086957" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -580,7 +559,7 @@
       <window_info anchor="right" id="Database" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23551756" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23836657" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -589,7 +568,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28913045" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.19347826" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -623,12 +602,10 @@
     <MESSAGE value="added gitignore" />
     <MESSAGE value="added multicast quoteReceiver och QuoteSender" />
     <MESSAGE value="cleanup" />
-    <option name="LAST_COMMIT_MESSAGE" value="cleanup" />
+    <MESSAGE value="cleanup, added live coded stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="cleanup, added live coded stuff" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Snake/ControlVariables.java" />
-    <entry file="file://$PROJECT_DIR$/src/Snake/GraphicUtilities.java" />
-    <entry file="file://$PROJECT_DIR$/src/Snake/SnakeAction.java" />
     <entry file="file://$PROJECT_DIR$/src/Snake/SnakeTheGame.java" />
     <entry file="file://$PROJECT_DIR$/src/Snake/SnakeKeyAdapter.java" />
     <entry file="file://$PROJECT_DIR$/src/Snake/GameBoard.java" />
@@ -799,13 +776,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Knockknock/KnockKnockProtocol.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="716">
-          <caret line="90" column="26" lean-forward="true" selection-start-line="90" selection-start-column="26" selection-end-line="90" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Knockknock/KnockKnockServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="212">
@@ -841,27 +811,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PropertiesDemo/Settings2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PropertiesDemo/PropertiesDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="37" column="32" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PropertiesDemo/DemoProperties.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="17" lean-forward="true" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CarDemo/Server/CarServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -890,6 +839,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ÖvnUppg12_Chatt/Handler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="34" column="45" lean-forward="true" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ÖvnUppg12_Chatt/MultiWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="25" column="20" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ÖvnUppg12_Chatt/ServerListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="19" column="33" lean-forward="true" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ÖvnUppg12_Chatt/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="52" column="37" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PropertiesDemo/Settings2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PropertiesDemo/DemoProperties.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PropertiesDemo/PropertiesDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="34" column="34" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ChatDemo2Parts/Server.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -899,7 +897,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ChatDemo2Parts/Receiver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
+        <state relative-caret-position="238">
           <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
         </state>
       </provider>
@@ -911,45 +909,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ÖvnUppg12_Chatt/ServerListener.java">
+    <entry file="file://$PROJECT_DIR$/src/TicTacToeSimple/TicTacToeClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ÖvnUppg12_Chatt/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="20" column="4" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+        <state relative-caret-position="323">
+          <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TicTacToeSimple/TicTacToeServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="22" column="2" lean-forward="true" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TicTacToeSimple/TicTacToeClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1623">
-          <caret line="70" column="56" lean-forward="true" selection-start-line="70" selection-start-column="56" selection-end-line="70" selection-end-column="56" />
+        <state relative-caret-position="765">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TicTacToeSimple/ServerSidePlayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="53" column="30" lean-forward="true" selection-start-line="53" selection-start-column="30" selection-end-line="53" selection-end-column="30" />
+        <state relative-caret-position="1547">
+          <caret line="99" column="61" selection-start-line="99" selection-start-column="58" selection-end-line="99" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Knockknock/KnockKnockProtocol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TicTacToeSimple/ServerSideGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+        <state relative-caret-position="375">
+          <caret line="63" column="41" selection-start-line="63" selection-start-column="32" selection-end-line="63" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RegexpDemo/RegexTestHarness.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="25" column="33" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
