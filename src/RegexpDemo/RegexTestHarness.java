@@ -34,7 +34,7 @@ public class RegexTestHarness {
                 found = true;
             }
             if(!found){
-                System.out.println("No match found.%n");
+                System.out.println("No match found.");
             }
         }
     }
