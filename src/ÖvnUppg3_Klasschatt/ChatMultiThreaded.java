@@ -23,7 +23,7 @@ public class ChatMultiThreaded extends JFrame implements ActionListener {
     JTextField skriv = new JTextField();
     JButton sluta = new JButton("Koppla ner");
     InetSocketAddress group;
-    NetworkInterface netIf = NetworkInterface.getByName("wlan1");
+    NetworkInterface netIf = NetworkInterface.getByName("wlan2");
     
     public ChatMultiThreaded(String användarnamn, 
             String gruppadr, int portNr) throws IOException{

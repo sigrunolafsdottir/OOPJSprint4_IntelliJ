@@ -20,7 +20,7 @@ public class Util {
         OrderedPair<String, String> p4 = new OrderedPair<>("Mimmi", 
                 "Drottninggatan 3"); 
 
-       // System.out.println(compare(p2, p2));
+        //System.out.println(compare(p2, p2));
        //System.out.println(compare(p1, p2));   //otillåtet eftersom p1 och p2:s typer inte överensstämmer
         System.out.println(compare(p2, p4));
         

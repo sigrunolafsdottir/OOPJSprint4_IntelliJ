@@ -20,7 +20,7 @@ package ÖvnUppg4b_Väderrapportering;
          iadr = InetAddress.getByName(gruppAdress);
          port = portNr;
          InetSocketAddress group = new InetSocketAddress(iadr, port);
-         NetworkInterface netIf = NetworkInterface.getByName("wlan1");
+         NetworkInterface netIf = NetworkInterface.getByName("wlan2");
       
          // ordna fönstrets layout
          setTitle("Rapportera temperatur");

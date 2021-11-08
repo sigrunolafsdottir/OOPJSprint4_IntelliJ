@@ -26,7 +26,7 @@ public class DatagramSender {
             DatagramPacket packet = new DatagramPacket(data, 
                     data.length, toAdr, toPort);
             socket.send(packet);
-            System.out.println("Vad har du på hjärtat?  ");
+            System.out.println("Vad har du på hjärtat? ");
         } System.exit(0);
     }
 }

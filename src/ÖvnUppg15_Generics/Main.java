@@ -19,7 +19,7 @@ public class Main {
         String s = genQ2.take();
         System.out.println("size: "+ genQ2.size());
 //        
-        GenericNumberQueue <Integer> genQ3 =
+       GenericNumberQueue <Integer> genQ3 =
                 new GenericNumberQueue<>();
 //        
         genQ3.put(5);
@@ -28,6 +28,7 @@ public class Main {
         Integer i2 = genQ3.take();
         System.out.println("size: "+ genQ3.size());
         System.out.println("sum: "+ genQ3.getValue2());
+
         if (genQ3.getValue2().getClass() == Integer.class) {
             System.out.println("yes");
         };
@@ -46,7 +47,7 @@ public class Main {
        // GenericNumberQueue <String> genQ4 = new GenericNumberQueue<>();
         
 
-        
+
     }
     
     

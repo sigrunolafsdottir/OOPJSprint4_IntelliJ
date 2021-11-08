@@ -6,7 +6,7 @@ import java.io.*;
 public class URLReaderDemo {
     public static void main(String[] args) throws Exception {
 
-        URL boken = new URL("http://skansholm.com/java_dir/");
+        URL boken = new URL("https://skansholm.com/java_dir/#Exempel");
         BufferedReader in = new BufferedReader(
             new InputStreamReader(boken.openStream()));
 

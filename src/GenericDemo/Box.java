@@ -8,12 +8,14 @@ import java.util.List;
 
 
 
-public class Box<T> { // T stands for "Type" 
-	private T t; 
+public class Box<T> { // T stands for "Type"
+	private T t;
+    private T t2;
 
-	public void set(T t) {
+    public void set(T t) {
 		this.t = t; 
-	} 
+	}
+
 	public T get() { 
 		return t; 
 	} 
@@ -37,6 +39,8 @@ public class Box<T> { // T stands for "Type"
             Box<String> b2 = new Box<>();
             b2.set("Meddelande");
             System.out.println(b2.get());
+
+
 
             String[] strArr = {"hej", "hopp"};
 

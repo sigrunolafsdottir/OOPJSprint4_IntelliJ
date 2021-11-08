@@ -1,8 +1,10 @@
-package CarDemo.Server;
+package CarObjectDemo.Server;
 
+
+import java.io.Serializable;
 
 //only available backend
-public class Car {
+public class Car implements Serializable {
     
     protected String regnr;
     protected String owner;

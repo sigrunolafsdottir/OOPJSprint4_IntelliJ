@@ -8,8 +8,8 @@ public class QuoteReceiver  {
     public static void main(String[] args) throws SocketException, IOException{
 
         int minPort = 12540;
-        InetAddress toAdr = InetAddress.getByName("234.235.236.237");
-        InetSocketAddress socketAdr = new InetSocketAddress(toAdr, minPort);
+        InetAddress fromAdr = InetAddress.getByName("234.235.236.237");
+        InetSocketAddress socketAdr = new InetSocketAddress(fromAdr, minPort);
         NetworkInterface netIf = NetworkInterface.getByName("wlan1");
         MulticastSocket socket = new MulticastSocket(12540);
         socket.joinGroup(socketAdr, null);

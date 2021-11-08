@@ -25,15 +25,15 @@ public class GenericNumberQueue <T extends Number>
         return innerList.size();
     }
 
-    
-    public T getValueLastCastNotWorking(){
-        Double sum = 0.0;
+
+    public double getValueLastCastNotWorking(){
+        double sum = 0.0;
         //Number sum = 0;
 
         for (T t : innerList){
             sum += t.doubleValue();
         }
-        return (T) sum;
+        return sum;
     }
 
     public T getValue2(){

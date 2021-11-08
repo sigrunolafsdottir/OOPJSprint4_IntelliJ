@@ -14,7 +14,7 @@ public class SendOnlyClient {
     
     String output = "Kill your darlings";
     
-        SendOnlyClient() throws IOException{
+    SendOnlyClient() throws IOException{
         String hostName = "127.0.0.1";  //localhost
        //  String hostName = "172.20.201.122";
         int portNumber = 12345;
