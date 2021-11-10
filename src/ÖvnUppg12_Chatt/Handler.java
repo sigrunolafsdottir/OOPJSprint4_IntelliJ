@@ -13,9 +13,6 @@ public class Handler extends Thread{
     
     private Socket socket;
     private MultiWriter multiWriter;
-    private PrintWriter out;
-    private BufferedReader in;
-    int id;
     
     public Handler (Socket socket, MultiWriter multiWriter){
         this.socket = socket;
@@ -24,9 +21,8 @@ public class Handler extends Thread{
     
     public void run(){
         
-         try{
-            out = new PrintWriter(socket.getOutputStream(), true);  //true for autoflush
-            in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+         try (PrintWriter out = new PrintWriter(socket.getOutputStream(), true);  //true for autoflush
+              BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));){
 
             //Vi lägger in vår printWriter i multiWriters lista 
             multiWriter.addWriter(out);
@@ -45,17 +41,7 @@ public class Handler extends Thread{
          catch (Exception e){
              e.printStackTrace();
          }
-         finally {
-            // Klienten har stängts ner. Vi städar ur multiWritern
-            if (out != null) {
-                multiWriter.removeWriter(out);
-            }
-            try {
-                socket.close();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-        }
+
     }
     
 
