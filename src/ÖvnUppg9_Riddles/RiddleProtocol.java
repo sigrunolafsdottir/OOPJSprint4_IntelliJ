@@ -20,14 +20,23 @@ public class RiddleProtocol {
     public String processInput(String theInput) {
         String theOutput = null;
 
-        if (state == WAITING || state == SENTANSWER) {
+        if (state == WAITING ) {
             theOutput = clues[currentRiddle];
             state = SENTRIDDLE;
+        }
+        else if (state == SENTANSWER) {
+            if (theInput.equalsIgnoreCase("nej")){
+                theOutput = "bye";
+            }
+            else {
+                theOutput = clues[currentRiddle];
+                state = SENTRIDDLE;
+            }
         } else if (state == SENTRIDDLE) {
             if (theInput.equalsIgnoreCase(answers[currentRiddle])) {
-                theOutput = "Rätt";
+                theOutput = "Rätt, vill du ha en till? (svara ja eller nej)";
             } else {
-                theOutput = "Fel";
+                theOutput = "Fel, vill du ha en till? (svara ja eller nej)";
             }
             state = SENTANSWER;
             currentRiddle++;
