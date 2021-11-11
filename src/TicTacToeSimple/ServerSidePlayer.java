@@ -8,13 +8,13 @@ import java.net.Socket;
 
 
    /**
-     * The class for the helper threads in this multithreaded server
-     * application.  A Player is identified by a character mark
-     * which is either 'X' or 'O'.  For communication with the
-     * client the player has a socket with its input and output
-     * streams.  Since only text is being communicated we use a
-     * reader and a writer.
-     */
+* The class for the helper threads in this multithreaded server
+* application. A Player is identified by a character mark
+* which is either 'X' or 'O'. For communication with the
+* client the player has a socket with its input and output
+* streams. Since only text is being communicated we use a
+* reader and a writer.
+*/
     class ServerSidePlayer extends Thread {
         char mark;
         ServerSidePlayer opponent;
@@ -24,10 +24,10 @@ import java.net.Socket;
         ServerSideGame game;
 
     /**
-         * Constructs a handler thread for a given socket and mark
-         * initializes the stream fields, displays the first two
-         * welcoming messages.
-         */
+* Constructs a handler thread for a given socket and mark
+* initializes the stream fields, displays the first two
+* welcoming messages.
+*/
         public ServerSidePlayer(Socket socket, char mark, ServerSideGame game) {
             this.socket = socket;
             this.mark = mark;
@@ -44,8 +44,8 @@ import java.net.Socket;
         }
 
         /**
-         * Accepts notification of who the opponent is.
-         */
+* Accepts notification of who the opponent is.
+*/
         public void setOpponent(ServerSidePlayer opponent) {
             this.opponent = opponent;
         }
@@ -58,8 +58,8 @@ import java.net.Socket;
        }
 
         /**
-         * Handles the otherPlayerMoved message.
-         */
+* Handles the otherPlayerMoved message.
+*/
         public void otherPlayerMoved(int location) {
             output.println("OPPONENT_MOVED " + location);
         
@@ -77,8 +77,8 @@ import java.net.Socket;
         }
 
         /**
-         * The run method of this thread.
-         */
+* The run method of this thread.
+*/
         public void run() {
             try {
             // The thread is only started after everyone connects.

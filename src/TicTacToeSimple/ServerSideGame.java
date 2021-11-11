@@ -2,31 +2,31 @@ package TicTacToeSimple;
 
 
 /**
- * A two-player game.
- */
+* A two-player game.
+*/
 class ServerSideGame {
 
     /**
-     * A board has nine squares.  Each square is either unowned or
-     * it is owned by a player.  So we use a simple array of player
-     * references.  If null, the corresponding square is unowned,
-     * otherwise the array cell stores a reference to the player that
-     * owns it.
-     */
+* A board has nine squares. Each square is either unowned or
+* it is owned by a player. So we use a simple array of player
+* references. If null, the corresponding square is unowned,
+* otherwise the array cell stores a reference to the player that
+* owns it.
+*/
     private ServerSidePlayer[] board = {
         null, null, null,
         null, null, null,
         null, null, null};
 
     /**
-     * The current player.
-     */
+* The current player.
+*/
     ServerSidePlayer currentPlayer;
 
     /**
-     * Returns whether the current state of the board is such that one
-     * of the players is a winner.
-     */
+* Returns whether the current state of the board is such that one
+* of the players is a winner.
+*/
     public boolean hasWinner() {
         return
             (board[0] != null && board[0] == board[1] && board[0] == board[2])
@@ -40,8 +40,8 @@ class ServerSideGame {
     }
 
     /**
-     * Returns whether there are no more empty squares.
-     */
+* Returns whether there are no more empty squares.
+*/
     public boolean boardFilledUp() {
         for (int i = 0; i < board.length; i++) {
             if (board[i] == null) {
@@ -52,15 +52,15 @@ class ServerSideGame {
     }
 
     /**
-     * Called by the player threads when a player tries to make a
-     * move.  This method checks to see if the move is legal: that
-     * is, the player requesting the move must be the current player
-     * and the square in which she is trying to move must not already
-     * be occupied.  If the move is legal the game state is updated
-     * (the square is set and the next player becomes current) and
-     * the other player is notified of the move so it can update its
-     * client.
-     */
+* Called by the player threads when a player tries to make a
+* move. This method checks to see if the move is legal: that
+* is, the player requesting the move must be the current player
+* and the square in which she is trying to move must not already
+* be occupied. If the move is legal the game state is updated
+* (the square is set and the next player becomes current) and
+* the other player is notified of the move so it can update its
+* client.
+*/
     public synchronized boolean legalMove(int location, ServerSidePlayer player) {
         if (player == currentPlayer && board[location] == null) {
             board[location] = currentPlayer;
