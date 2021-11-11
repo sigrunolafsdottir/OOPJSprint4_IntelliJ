@@ -33,7 +33,7 @@ public class Handler extends Thread{
                     return;
                 }
                 for (PrintWriter writer : multiWriter.getWriters()) {
-                    writer.println("MESSAGE " + input);
+                    writer.println(input);
                 }
             }
             

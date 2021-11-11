@@ -48,11 +48,7 @@ public class Client  extends JFrame implements ActionListener {
             String fromServer;
 
             while ((fromServer = (String)in.readLine()) != null) {
-                //Nu består vårt protokoll bara av ett state, väntan på meddelanden
-                //om vi hade haft flera hade det varit läge att kolla state här
-                if (fromServer.startsWith("MESSAGE")){
-                    txt.append(fromServer.substring(8) + "\n");
-                }
+                txt.append(fromServer+ "\n");
             }
         }
         catch (Exception e){
