@@ -1,4 +1,4 @@
-package ÖvnUppg15_Generics;
+package ÖvnUppg15_Generics.uppg15ab;
 
 
 public interface IGenericQueue<T> {

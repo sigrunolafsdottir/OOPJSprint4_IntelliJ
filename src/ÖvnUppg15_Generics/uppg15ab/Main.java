@@ -1,11 +1,11 @@
-package ÖvnUppg15_Generics;
+package ÖvnUppg15_Generics.uppg15ab;
 
 
 public class Main {
     
     public static void main (String args[]){
         
-        GenericQueue <Integer> genQ = new GenericQueue<>();
+        GenericQueue<Integer> genQ = new GenericQueue<>();
         
         genQ.put(5);
         genQ.put(7);
@@ -19,7 +19,7 @@ public class Main {
         String s = genQ2.take();
         System.out.println("size: "+ genQ2.size());
 //        
-       GenericNumberQueue <Integer> genQ3 =
+       GenericNumberQueue<Integer> genQ3 =
                 new GenericNumberQueue<>();
 //        
         genQ3.put(5);

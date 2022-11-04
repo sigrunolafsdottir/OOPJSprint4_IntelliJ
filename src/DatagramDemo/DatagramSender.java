@@ -10,8 +10,7 @@ import java.net.SocketException;
 import java.net.UnknownHostException;
 
 public class DatagramSender {
-    public static void main(String[] args) throws 
-            UnknownHostException, SocketException, IOException{
+    public static void main(String[] args) throws IOException{
         BufferedReader in = new BufferedReader(
                 new InputStreamReader(System.in));
         

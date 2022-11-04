@@ -30,6 +30,8 @@ public class Handler extends Thread{
             while(true){
                 String input = in.readLine();
                 if (input == null) {
+                   // multiWriter.removeWriter(out);
+                    //socket.close();
                     return;
                 }
                 for (PrintWriter writer : multiWriter.getWriters()) {

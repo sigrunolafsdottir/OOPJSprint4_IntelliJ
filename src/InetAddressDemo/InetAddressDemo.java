@@ -15,10 +15,10 @@ class InetAddressDemo
         InetAddress loopback = InetAddress.getLoopbackAddress();
         System.out.println(loopback);
 
-        //IP till dn.se
-        Address = InetAddress.getByName("www.dn.se");
+        Address = InetAddress.getByName("192.168.68.54");
         System.out.println(Address);
 
+        //IP till dn.se
         Address = InetAddress.getByName("dn.se");
         System.out.println(Address);
 

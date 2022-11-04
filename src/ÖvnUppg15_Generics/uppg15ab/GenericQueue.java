@@ -1,4 +1,4 @@
-package ÖvnUppg15_Generics;
+package ÖvnUppg15_Generics.uppg15ab;
 
 import java.util.LinkedList;
 import java.util.List;

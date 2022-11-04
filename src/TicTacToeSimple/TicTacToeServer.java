@@ -36,19 +36,19 @@ public class TicTacToeServer {
             while (true) {
                 ServerSideGame game = new ServerSideGame();
 
-
                 ServerSidePlayer playerX 
                         = new ServerSidePlayer(listener.accept(), 'X', game);
                 ServerSidePlayer playerO 
                         = new ServerSidePlayer(listener.accept(), 'O', game);
-
-
 
                 playerX.setOpponent(playerO);
                 playerO.setOpponent(playerX);
                 game.currentPlayer = playerX;
                 playerX.start();
                 playerO.start();
+
+                //Game2 game2 = new Game2(socket1, socket2);
+
             }
         } finally {
             listener.close();

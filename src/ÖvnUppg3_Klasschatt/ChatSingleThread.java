@@ -29,7 +29,7 @@ public class ChatSingleThread extends JFrame implements ActionListener {
     JButton sluta = new JButton("Koppla ner");
     Timer timer = new Timer(10000, this);
     InetSocketAddress group;
-    NetworkInterface netIf = NetworkInterface.getByName("wlan2");
+    NetworkInterface netIf = NetworkInterface.getByName("wlan3");
 
     public ChatSingleThread(String användarnamn, 
             String gruppadr, int portNr) throws IOException{
