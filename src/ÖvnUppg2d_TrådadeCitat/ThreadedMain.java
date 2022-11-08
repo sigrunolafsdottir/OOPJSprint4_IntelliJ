@@ -1,4 +1,4 @@
-package ÖvnUppg2c_TrådadeCitat;
+package ÖvnUppg2d_TrådadeCitat;
 
 public class ThreadedMain {
 

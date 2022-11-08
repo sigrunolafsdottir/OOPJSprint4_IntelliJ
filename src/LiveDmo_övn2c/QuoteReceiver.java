@@ -1,4 +1,4 @@
-package ÖvnUppg2c_kvittens;
+package LiveDmo_övn2c;
 
 import java.io.IOException;
 import java.net.DatagramPacket;
@@ -14,16 +14,17 @@ public class QuoteReceiver  {
         int sendPort = 55556;
         DatagramSocket socket = new DatagramSocket(recPort);
         byte[] data = new byte[256];
-        String kvittens = "Message Received";
         while(true){
             DatagramPacket packet = new DatagramPacket(data, data.length);
             socket.receive(packet);
             String message = new String(packet.getData(), 0, packet.getLength());
             System.out.println(message);
 
-            packet =  new DatagramPacket(kvittens.getBytes(), kvittens.getBytes().length,toAdr, sendPort );
+            String kvittens = "meddelande mottaget";
+            byte[] kvittensBA = kvittens.getBytes();
+            packet = new DatagramPacket(kvittensBA, kvittensBA.length, toAdr, sendPort);
             socket.send(packet);
-            System.out.println("kvittens skickad");
+            System.out.println("kvittens sent");
         }
     }
 }

@@ -1,4 +1,4 @@
-package ÖvnUppg2c_kvittens;
+package LiveDmo_övn2c;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -22,15 +22,17 @@ public class QuoteSender {
         int listCounter = 0;
         
         InetAddress toAdr = InetAddress.getLocalHost();
-        int toPort = 55555;
+        int sendPort = 55555;
         int recPort = 55556;
         DatagramSocket socket = new DatagramSocket(recPort);
         while(true){
             byte[] data = quoteList.get(listCounter).getBytes();
-            DatagramPacket packet = new DatagramPacket(data, data.length, toAdr, toPort);
+            DatagramPacket packet = new DatagramPacket(data, data.length, toAdr, sendPort);
             socket.send(packet);
             listCounter = (listCounter + 1) % 3;
 
+
+            packet = new DatagramPacket(data, data.length);
             socket.receive(packet);
             String message = new String(packet.getData(), 0, packet.getLength());
             System.out.println(message);

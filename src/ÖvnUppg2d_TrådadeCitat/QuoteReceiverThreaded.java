@@ -1,9 +1,7 @@
-package ÖvnUppg2c_TrådadeCitat;
+package ÖvnUppg2d_TrådadeCitat;
 
-import java.io.IOException;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
-import java.net.SocketException;
 
 public class QuoteReceiverThreaded implements Runnable {
 
