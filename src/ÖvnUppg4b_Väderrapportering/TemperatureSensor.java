@@ -16,7 +16,7 @@ public class TemperatureSensor {
         InetAddress iadr = InetAddress.getByName(ip);
         int port = 12540;
         InetSocketAddress group = new InetSocketAddress(iadr, port);
-        NetworkInterface netIf = NetworkInterface.getByName("wlan2");
+        NetworkInterface netIf = NetworkInterface.getByName("wlan3");
         Scanner sc = new Scanner(System.in);
         String city = JOptionPane.showInputDialog(null, "Ange stad");
         if (city == null || city.length() == 0){  //tar hand om Cancel-tryck

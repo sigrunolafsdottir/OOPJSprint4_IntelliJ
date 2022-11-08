@@ -20,7 +20,7 @@ public class DatagramSender {
         String message;
         System.out.println("Vad har du på hjärtat? ");
         while((message = in.readLine()) != null){
-            if (message.equals("bye"))  System.exit(0);
+
             byte[] data = message.getBytes();
             DatagramPacket packet = new DatagramPacket(data, 
                     data.length, toAdr, toPort);

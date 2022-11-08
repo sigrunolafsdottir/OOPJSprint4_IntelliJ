@@ -11,7 +11,7 @@ public class TemperatureCollector  {
         InetAddress iadr = InetAddress.getByName(ip);
         int port = 12540;
         InetSocketAddress group = new InetSocketAddress(iadr, port);
-        NetworkInterface netIf = NetworkInterface.getByName("wlan2");
+        NetworkInterface netIf = NetworkInterface.getByName("wlan3");
         MulticastSocket socket = new MulticastSocket(port);
         socket.joinGroup(group, netIf);
 
