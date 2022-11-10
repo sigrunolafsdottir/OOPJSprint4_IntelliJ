@@ -34,14 +34,23 @@ public class Main {
         };
 
 
-//        GenericNumberQueue <Double> genQ4 = new GenericNumberQueue<>();
-//        
-//        genQ4.put(5.7);
-//        genQ4.put(7.4);
-//        genQ4.put(3.3);
-//        Double d = genQ4.take();
-//        System.out.println("size: "+ genQ4.size());
-//        System.out.println("sum: "+ genQ4.getValue());
+        GenericNumberQueue <Long> genQ4 = new GenericNumberQueue<>();
+
+        genQ4.put(432543589765473343L);
+        genQ4.put(234L);
+        genQ4.put(12L);
+        System.out.println("genQ4 size: "+ genQ4.size());
+        System.out.println("genQ4 sum: "+ genQ4.getValue2());
+
+        System.out.println(genQ4.getValueInDoubleFormat());
+
+        GenericNumberQueue <Number> genQ5 = new GenericNumberQueue<>();
+        genQ5.put(43273343L);
+        genQ5.put(0.5);
+        genQ5.put(12);
+
+        System.out.println("genQ5 sum: "+ genQ5.getValue2());
+        System.out.println(genQ5.getValueInDoubleFormat());
         
         //Funkar inte
        // GenericNumberQueue <String> genQ4 = new GenericNumberQueue<>();

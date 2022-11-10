@@ -26,7 +26,8 @@ public class GenericNumberQueue <T extends Number>
     }
 
 
-    public double getValueLastCastNotWorking(){
+    //It works to convert all numbers to double, but in this way, we cannot have a generic result
+    public double getValueInDoubleFormat(){
         double sum = 0.0;
         //Number sum = 0;
 
@@ -36,6 +37,8 @@ public class GenericNumberQueue <T extends Number>
         return sum;
     }
 
+    //Här har vi ett generiskt resultat, men notera att vi kan ha en lista av typ List<Number> och
+    //då kan vi ha olika type på våra tal, jag kollar bara det första, så då riskerar det att bli fel pga det
     public T getValue2(){
 
        // Detta funkar inte, vi måste plocka ut ett element och kolla klass på det
