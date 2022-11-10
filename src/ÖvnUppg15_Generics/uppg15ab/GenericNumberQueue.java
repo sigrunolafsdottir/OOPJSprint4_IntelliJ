@@ -37,6 +37,11 @@ public class GenericNumberQueue <T extends Number>
     }
 
     public T getValue2(){
+
+       // Detta funkar inte, vi måste plocka ut ett element och kolla klass på det
+      //  if (innerList instanceof List<Integer>)
+      //  if (innerList<T> instanceof List<Integer>)
+
         try {
             if (innerList.get(0).getClass() == Integer.class) {
                 Integer sum = 0;
