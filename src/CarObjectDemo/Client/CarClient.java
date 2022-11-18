@@ -35,8 +35,9 @@ public class CarClient {
             if (fromServer instanceof String) {
                 System.out.println("Server: " + fromServer);
             }
-            else if (fromServer instanceof Car) {
-                System.out.println("Server: " + ((Car) fromServer).getData());
+            else if (fromServer instanceof Car minBil) {
+                //System.out.println("Server: " + ((Car) fromServer).getData());  //OLD
+                System.out.println("Server: " + minBil.getData());
             }
             
             fromUser = stdIn.readLine();

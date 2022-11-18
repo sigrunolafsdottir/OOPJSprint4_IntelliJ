@@ -38,7 +38,6 @@ public class Handler extends Thread{
                     writer.println(input);
                 }
             }
-            
         }
          catch (Exception e){
              e.printStackTrace();

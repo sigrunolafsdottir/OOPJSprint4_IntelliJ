@@ -34,14 +34,13 @@ public class Client {
                     System.out.println("Connection setup complete");
 
                 }
-                else if (fromServer instanceof Response){
-                    if (!((Response) fromServer).getSuccess()){
+                else if (fromServer instanceof Response resp){
+                    if (!resp.getSuccess()){
                         System.out.println("Personen finns inte i "
                                 + "databasen");
                     }
                     else{
-                        System.out.println(((Response) fromServer)
-                                .getPerson().getAddress());
+                        System.out.println(resp.getPerson().getAddress());
 
                     }
                 }

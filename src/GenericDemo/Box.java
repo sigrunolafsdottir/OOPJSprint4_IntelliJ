@@ -22,7 +22,7 @@ public class Box<T> { // T stands for "Type"
         
         
         public static void main(String[] args){
-
+/*
 	        List testList = new ArrayList();
 	        testList.add("hej");
 	        testList.add(4);
@@ -30,9 +30,10 @@ public class Box<T> { // T stands for "Type"
 	        for (Object o : testList){
                 System.out.println(o);
             }
-
+*/
             Box<Number> b1 = new Box<>();
             b1.set(3);
+            System.out.println(b1.get());
             b1.set(3.14);
             System.out.println(b1.get());
 

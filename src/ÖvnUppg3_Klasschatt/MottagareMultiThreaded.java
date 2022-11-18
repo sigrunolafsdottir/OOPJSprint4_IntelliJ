@@ -22,11 +22,9 @@ public class MottagareMultiThreaded implements Runnable{
         byte[] data = new byte[1024];
         while(true){
             try{
-                DatagramPacket packet = new DatagramPacket
-        (data, data.length);
+                DatagramPacket packet = new DatagramPacket(data, data.length);
                 so.receive(packet);
-                String medd = new String(data, 0, 
-                        packet.getLength());
+                String medd = new String(data, 0, packet.getLength());
                 synchronized(this) {
                     txt.append(medd +"\n");
                 }

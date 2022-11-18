@@ -34,8 +34,8 @@ public class Client {
                     System.out.println("What person would you like "
                             + "to look up?");
                 }
-                else if (fromServer instanceof Response){
-                    if (!((Response) fromServer).getSuccess()){
+                else if (fromServer instanceof Response resp){
+                    if (!resp.getSuccess()){
                         System.out.println("Personen finns inte i "
                                 + "databasen");
                     }

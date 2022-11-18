@@ -11,7 +11,7 @@ public class ServerListener {
     
     private static MultiWriter multiWriter = new MultiWriter();
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
          while (true) {
             try (ServerSocket serverSocket = new ServerSocket(12345);){
                 final Socket socketToClient = serverSocket.accept();

@@ -71,6 +71,7 @@ public TicTacToeClient(String serverAddress) throws Exception {
                 public void mousePressed(MouseEvent e) {
                     currentSquare = board[j];
                     out.println("MOVE " + j);}});
+
             boardPanel.add(board[i]);
         }
         frame.getContentPane().add(boardPanel, "Center");

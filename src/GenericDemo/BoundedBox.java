@@ -9,7 +9,7 @@ public class BoundedBox<T extends String> { // T stands for "Type"
 	public void set(T t) {
 		this.t = t; 
 	} 
-	public T get() { 
+	public T get() {
 		return t; 
 	} 
         

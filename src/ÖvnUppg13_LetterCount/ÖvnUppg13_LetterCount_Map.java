@@ -24,14 +24,10 @@ public class ÖvnUppg13_LetterCount_Map {
                 while ((temp = in.readLine()) != null ){
 
                     int size = temp.length();
-                    Integer val=mapper.get(size);
-                    if(val!=null)  //det finns en rad med denna storlek
-                    {
-                        mapper.put(size,val+1);
-                    }else  //det finns inte någon rad med denna storlek
-                    {
-                        mapper.put(size,1);
-                    }
+                    //det finns en rad med denna storlek
+                    //det finns inte någon rad med denna storlek
+                    // första gången vi hittar ett ord av denna storlek
+                    mapper.merge(size, 1, Integer::sum);
                     total++;
                 }
 

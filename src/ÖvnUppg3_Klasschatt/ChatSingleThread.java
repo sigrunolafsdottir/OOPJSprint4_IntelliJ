@@ -95,6 +95,9 @@ public class ChatSingleThread extends JFrame implements ActionListener {
             sändMedd("NEDKOPPLAD");
             try {
                 so.leaveGroup(group, netIf);
+                so.close();
+                dispose();
+                System.exit(0);
             }
             catch (IOException ie){
                 so.close();

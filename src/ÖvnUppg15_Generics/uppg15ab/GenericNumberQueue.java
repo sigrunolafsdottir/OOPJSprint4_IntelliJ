@@ -26,14 +26,15 @@ public class GenericNumberQueue <T extends Number>
     }
 
 
-    //It works to convert all numbers to double, but in this way, we cannot have a generic result
-    public double getValueInDoubleFormat(){
-        double sum = 0.0;
+    //It works to convert all numbers to float, but in this way, we cannot have a generic result
+    public float getValueInDoubleFormat(){
+        float sum = 0.0f;
         //Number sum = 0;
 
         for (T t : innerList){
-            sum += t.doubleValue();
+            sum += t.floatValue();
         }
+
         return sum;
     }
 

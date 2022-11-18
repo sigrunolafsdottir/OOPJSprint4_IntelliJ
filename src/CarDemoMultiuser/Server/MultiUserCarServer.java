@@ -20,8 +20,7 @@ public class MultiUserCarServer extends Thread {
     public void run(){
 
         try ( 
-            PrintWriter out =
-                new PrintWriter(clientSocket.getOutputStream(), true);
+            PrintWriter out = new PrintWriter(clientSocket.getOutputStream(), true);
             BufferedReader in = new BufferedReader(
                 new InputStreamReader(clientSocket.getInputStream()));
         ) {

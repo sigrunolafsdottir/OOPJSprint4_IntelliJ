@@ -47,6 +47,7 @@ public class TicTacToeServer {
                 playerX.start();
                 playerO.start();
 
+                //ALternativ approach
                 //Game2 game2 = new Game2(socket1, socket2);
 
             }
