@@ -70,6 +70,7 @@ public TicTacToeClient(String serverAddress) throws Exception {
             board[i].addMouseListener(new MouseAdapter() {
                 public void mousePressed(MouseEvent e) {
                     currentSquare = board[j];
+                    //System.out.println("sending MOVE "+j+" "+ i);
                     out.println("MOVE " + j);}});
 
             boardPanel.add(board[i]);
@@ -146,7 +147,7 @@ public TicTacToeClient(String serverAddress) throws Exception {
 * a white panel containing. A client calls setText() to fill
 * it with an X or O.
 */
-     static class Square extends JPanel {
+     class Square extends JPanel {
         JLabel label = new JLabel();
 
         public Square() {
