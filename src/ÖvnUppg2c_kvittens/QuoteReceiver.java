@@ -10,6 +10,7 @@ public class QuoteReceiver  {
     
     public static void main(String[] args) throws SocketException, IOException{
         InetAddress toAdr = InetAddress.getLocalHost();
+
         int recPort = 55555;
         int sendPort = 55556;
         DatagramSocket socket = new DatagramSocket(recPort);

@@ -19,7 +19,7 @@ public class QuoteSender {
 
     
     public static void main(String[] args) throws UnknownHostException, SocketException, IOException, InterruptedException{
-        BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+        //BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
         List<String> quoteList = new ArrayList<>();
         quoteList.add(quote1);
         quoteList.add(quote2);
