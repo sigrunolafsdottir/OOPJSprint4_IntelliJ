@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.net.Socket;
-import ÖvnUppg5_Adressbok.Server.Kompis; //
+import ÖvnUppg6_Adressbok.POJOs.Kompis; //
 
 
 

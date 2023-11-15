@@ -1,7 +1,8 @@
 package ÖvnUppg8_AdressBok.Klient;
 
-import ÖvnUppg7_Adressbok.Server.Initiator;
-import ÖvnUppg7_Adressbok.Server.Response;
+import ÖvnUppg8_AdressBok.POJOs.Initiator;
+import ÖvnUppg8_AdressBok.POJOs.Response;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.ObjectInputStream;

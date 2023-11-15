@@ -36,7 +36,6 @@ public class CarClient {
                 System.out.println("Server: " + fromServer);
             }
             else if (fromServer instanceof Car minBil) {
-                //System.out.println("Server: " + ((Car) fromServer).getData());  //OLD
                 System.out.println("Server: " + minBil.getData());
             }
             

@@ -4,8 +4,9 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.net.ServerSocket;
 import java.net.Socket;
-import ÖvnUppg5_Adressbok.Server.Kompis;
-import ÖvnUppg5_Adressbok.Server.DAO;
+import ÖvnUppg7_Adressbok.POJOs.Kompis;
+import ÖvnUppg7_Adressbok.POJOs.Initiator;
+import ÖvnUppg7_Adressbok.POJOs.Response;
 
 
 public class Server {
@@ -37,7 +38,7 @@ public class Server {
                     oos.writeObject(new Response(false));
                 }
                 else{
-                     oos.writeObject(new Response(true,outputPerson));
+                     oos.writeObject(new Response(true, outputPerson));
                 }
             }
         }

@@ -1,6 +1,7 @@
-package ÖvnUppg7_Adressbok.Server;
+package ÖvnUppg7_Adressbok.POJOs;
 
-import ÖvnUppg5_Adressbok.Server.Kompis;
+import ÖvnUppg7_Adressbok.POJOs.Kompis;
+
 import java.io.Serializable;
 
 public class Response implements Serializable {

@@ -18,6 +18,9 @@ public class Car implements Serializable {
         this.model = model;
         this.color = color;
     }
+
+    public Car(){
+    }
     
     public String getRegNr(){
         return regnr;

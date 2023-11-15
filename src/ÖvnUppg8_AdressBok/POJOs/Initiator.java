@@ -1,4 +1,4 @@
-package ÖvnUppg7_Adressbok.Server;
+package ÖvnUppg8_AdressBok.POJOs;
 
 import java.io.Serializable;
 

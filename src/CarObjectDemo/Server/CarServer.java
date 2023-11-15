@@ -26,8 +26,8 @@ public class CarServer {
             out.writeObject("Vilken bil vill du slå upp?");
             
             while ((input = in.readObject()) != null) {
-                if (input instanceof String) {
-                    output = d.getCarData((String) input);
+                if (input instanceof String s) {
+                    output = d.getCarData(s.trim());
                     if (output == null) {
                         out.writeObject("Denna bil finns inte i databasen: " + input);
                     } else {

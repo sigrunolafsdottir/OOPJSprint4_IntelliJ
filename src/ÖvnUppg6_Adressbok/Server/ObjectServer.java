@@ -6,8 +6,8 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import java.time.LocalDate;
 import java.time.Month;
-import ÖvnUppg5_Adressbok.Server.Kompis;
-import ÖvnUppg5_Adressbok.Server.DAO;
+import ÖvnUppg6_Adressbok.POJOs.Kompis;
+import ÖvnUppg6_Adressbok.POJOs.DAO;
 
 
 public class ObjectServer {

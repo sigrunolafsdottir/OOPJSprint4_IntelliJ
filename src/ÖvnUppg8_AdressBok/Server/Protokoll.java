@@ -1,9 +1,8 @@
 package ÖvnUppg8_AdressBok.Server;
 
-import ÖvnUppg5_Adressbok.Server.DAO;
-import ÖvnUppg5_Adressbok.Server.Kompis;
-import ÖvnUppg7_Adressbok.Server.Initiator;
-import ÖvnUppg7_Adressbok.Server.Response;
+import ÖvnUppg8_AdressBok.POJOs.Kompis;
+import ÖvnUppg8_AdressBok.POJOs.Initiator;
+import ÖvnUppg8_AdressBok.POJOs.Response;
 
 
 public class Protokoll {
