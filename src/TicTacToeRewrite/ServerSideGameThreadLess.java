@@ -61,6 +61,11 @@ class ServerSideGameThreadLess {
         return true;
     }
 
+    /*
+    The game loop, receiving the squares clicked by clients
+    Checking if a client has won, lost or if there is a tie.
+     */
+
     public void doGame(){
 
         playerX.send("WELCOME " + playerX.mark);
@@ -75,14 +80,12 @@ class ServerSideGameThreadLess {
         currentPlayer = playerX;
 
         while (true) {
-
-            command = currentPlayer.receive();
-            //System.out.println("server, received "+command +" "+currentPlayer.mark);
+            command = currentPlayer.receive();  //ta emot från klient
 
             if (command.startsWith("MOVE")) {
                 int location = Integer.parseInt(command.substring(5));
 
-                if (board[location] == null) {  //clicked in empty square = legal move
+                if (board[location] == null) {  //clicked empty square = legal move
                     board[location] = currentPlayer;
 
                     currentPlayer.send("VALID_MOVE");
@@ -100,13 +103,12 @@ class ServerSideGameThreadLess {
                         currentPlayer.send("");
                         currentPlayer.getOpponent().send("");
                     }
-
                     currentPlayer = currentPlayer.getOpponent();  //BYTER SPELARE
 
                 } else {
                     currentPlayer.send("MESSAGE ?");
                 }
-                //TODO, rensa om det ligger saker i currentPlayers socket som lagts dit för tidigt
+
             } else if (command.startsWith("QUIT")) {
                     return;
             }

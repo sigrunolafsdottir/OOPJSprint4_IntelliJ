@@ -39,16 +39,23 @@ import java.net.Socket;
             }
         }
 
+        /*
+        Sends data to client
+         */
+
         public void send(String mess){
             output.println(mess);
         }
 
-
+/*
+Receives data from client
+ */
 
        public String receive()  {
            try {
                return input.readLine();
            } catch (IOException e) {
+               System.out.println("Player "+mark+" could not receive data " + e);
                throw new RuntimeException(e);
            }
        }

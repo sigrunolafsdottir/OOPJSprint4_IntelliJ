@@ -3,14 +3,11 @@ package TicTacToeRewrite;
 import java.net.ServerSocket;
 
 /**
-* A server for a network multi-player tic tac toe game. Modified and
-* extended from the class presented in Deitel and Deitel "Java How to
-* Program" book. I made a bunch of enhancements and rewrote large sections
-* of the code. The main change is instead of passing *data* between the
-* client and server, I made a TTTP (tic tac toe protocol) which is totally
-* plain text, so you can test the game with Telnet (always a good idea.)
-* The strings that are sent in TTTP are:
-*
+ * A server for a network multi-player tic tac toe game.
+ * Modified by Sigrun from a solution fround on the Internet.
+ * Modification is using only one (implicit) thread to handle the game server side.
+ * The strings that are sent in TTTP (tic tac toe protocol) are:
+ *
  * Client -> Server        Server -> Client
  * ----------------------  ----------
  * MOVE <n> (0 <= n <= 8)  WELCOME <char> (char in {X, O})
@@ -20,10 +17,8 @@ import java.net.ServerSocket;
  *                         DEFEAT
  *                         TIE
  *                         MESSAGE <text>
-*
-* A second change is that it allows an unlimited number of pairs of
-* players to play.
-*/
+ *
+ */
 public class TicTacToeServer {
 
     /**
