@@ -86,42 +86,29 @@ class ServerSideGameThreadLess {
                     board[location] = currentPlayer;
 
                     currentPlayer.send("VALID_MOVE");
-                    currentPlayer.send(hasWinner() ? "VICTORY"
-                            : boardFilledUp() ? "TIE"
-                            : "");
+                    currentPlayer.getOpponent().send("OPPONENT_MOVED " + location);
+
+                    if (hasWinner()){
+                        currentPlayer.send("VICTORY");
+                        currentPlayer.getOpponent().send("DEFEAT");
+                    }
+                    else if (boardFilledUp()){
+                        currentPlayer.send("TIE");
+                        currentPlayer.getOpponent().send("TIE");
+                    }
+                    else{
+                        currentPlayer.send("");
+                        currentPlayer.getOpponent().send("");
+                    }
 
                     currentPlayer = currentPlayer.getOpponent();  //BYTER SPELARE
-                    //otherPlayerMoved(location, currentPlayer);    //uppdaterar motståndarens plan
 
-                    currentPlayer.send("OPPONENT_MOVED " + location);
-                    currentPlayer.send(hasWinner() ? "DEFEAT"
-                            : boardFilledUp() ? "TIE"
-                            : "");
-
-                    } else {
-                        currentPlayer.send("MESSAGE ?");
-                    }
-                    //TODO, rensa om det ligger saker i currentPlayers socket som lagts dit för tidigt
+                } else {
+                    currentPlayer.send("MESSAGE ?");
+                }
+                //TODO, rensa om det ligger saker i currentPlayers socket som lagts dit för tidigt
             } else if (command.startsWith("QUIT")) {
                     return;
-            }
-        }
-    }
-
-
-    public void otherPlayerMoved(int location, ServerSidePlayer player) {
-        //System.out.println("Other player moved "+player.mark);
-        player.send("OPPONENT_MOVED " + location);
-
-        if (hasWinner()){
-            player.send("DEFEAT");
-        }
-        else{
-            if (boardFilledUp()){
-                player.send("TIE");
-            }
-            else{
-                player.send("");
             }
         }
     }
