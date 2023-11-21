@@ -1,4 +1,4 @@
-package TicTacToeSimple;
+package TicTacToeOriginal;
 
 import java.net.ServerSocket;
 

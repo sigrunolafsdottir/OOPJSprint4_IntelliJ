@@ -1,4 +1,4 @@
-package TicTacToeRewrite;
+package TicTacToeSimplerThreadHandeling;
 
 import javax.swing.*;
 import java.awt.*;

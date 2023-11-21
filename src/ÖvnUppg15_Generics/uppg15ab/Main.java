@@ -11,15 +11,15 @@ public class Main {
         genQ.put(7);
         Integer i = genQ.take();
         System.out.println("size: "+ genQ.size());
-        
+
         GenericQueue <String> genQ2 = new GenericQueue<>();
 //        
         genQ2.put("hej");
         genQ2.put("hopp");
         String s = genQ2.take();
-        System.out.println("size: "+ genQ2.size());
-//        
-       GenericNumberQueue<Integer> genQ3 =
+        System.out.println("size: "+ genQ2.size()+" "+s);
+//
+/*       GenericNumberQueue<Integer> genQ3 =
                 new GenericNumberQueue<>();
 //        
         genQ3.put(5);
@@ -55,7 +55,7 @@ public class Main {
         //Funkar inte
        // GenericNumberQueue <String> genQ4 = new GenericNumberQueue<>();
         
-
+*/
 
     }
     

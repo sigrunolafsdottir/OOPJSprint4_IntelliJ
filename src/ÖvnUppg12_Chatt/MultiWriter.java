@@ -18,13 +18,15 @@ public class MultiWriter {
     public void addWriter(PrintWriter p) {
             writers.add(p);
     }
-    
-    public List<PrintWriter> getWriters() {
-        return writers;
-    }
-    
+
     public void removeWriter(PrintWriter p) {
             writers.remove(p);
+    }
+
+    public void print(String s){
+        for (PrintWriter writer : writers) {
+            writer.println(s);
+        }
     }
 
 }

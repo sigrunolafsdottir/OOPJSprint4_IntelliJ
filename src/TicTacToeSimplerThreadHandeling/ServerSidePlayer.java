@@ -1,4 +1,4 @@
-package TicTacToeRewrite;
+package TicTacToeSimplerThreadHandeling;
 
 import java.io.BufferedReader;
 import java.io.IOException;

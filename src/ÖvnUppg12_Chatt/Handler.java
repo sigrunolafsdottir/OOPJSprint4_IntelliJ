@@ -26,17 +26,10 @@ public class Handler extends Thread{
 
             //Vi lägger in vår printWriter i multiWriters lista 
             multiWriter.addWriter(out);
+            String input = "";
             
-            while(true){
-                String input = in.readLine();
-                if (input == null) {
-                   // multiWriter.removeWriter(out);
-                    //socket.close();
-                    return;
-                }
-                for (PrintWriter writer : multiWriter.getWriters()) {
-                    writer.println(input);
-                }
+            while((input = in.readLine()) != null){
+                multiWriter.print(input);
             }
         }
          catch (Exception e){

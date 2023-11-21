@@ -1,4 +1,4 @@
-package TicTacToeSimple;
+package TicTacToeOriginal;
 
 import java.awt.Color;
 import java.awt.GridLayout;
@@ -9,7 +9,6 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.Socket;
 
-import javax.swing.Icon;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
