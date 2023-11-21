@@ -96,6 +96,7 @@ public TicTacToeClient(String serverAddress) throws Exception {
             response = in.readLine();
             if (response.startsWith("WELCOME")) {
                 mark = response.charAt(8);
+                if (mark == 'O') blocked = true;
                 opponentMark = (mark == 'X' ? 'O' : 'X');
                 frame.setTitle("Tic Tac Toe - Player " + mark);
             }
