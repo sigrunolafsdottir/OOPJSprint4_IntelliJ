@@ -40,6 +40,8 @@ private Socket socket;
 private BufferedReader in;
 private PrintWriter out;
 
+private boolean blocked = false;
+
 /**
 * Constructs the client by connecting to a server, laying out the
 * GUI and registering GUI listeners.
@@ -65,7 +67,8 @@ public TicTacToeClient(String serverAddress) throws Exception {
                 public void mousePressed(MouseEvent e) {
                     currentSquare = board[j];
                     //System.out.println("sending MOVE "+j+" "+ i);
-                    out.println("MOVE " + j);}});
+                    if (!blocked)
+                        out.println("MOVE " + j);}});
 
             boardPanel.add(board[i]);
         }
@@ -102,11 +105,13 @@ public TicTacToeClient(String serverAddress) throws Exception {
                     messageLabel.setText("Valid move, please wait");
                     currentSquare.setText(String.valueOf(mark));
                     currentSquare.repaint();
+                    blocked = true;
                 } else if (response.startsWith("OPPONENT_MOVED")) {
                     int loc = Integer.parseInt(response.substring(15));
                     board[loc].setText(String.valueOf(opponentMark));
                     board[loc].repaint();
                     messageLabel.setText("Opponent moved, your turn");
+                    blocked = false;
                 } else if (response.startsWith("VICTORY")) {
                     messageLabel.setText("You win");
                     break;
