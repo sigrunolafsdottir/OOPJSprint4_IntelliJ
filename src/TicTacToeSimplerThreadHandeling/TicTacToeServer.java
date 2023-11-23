@@ -32,7 +32,7 @@ public class TicTacToeServer {
                 ServerSidePlayer playerX = new ServerSidePlayer(listener.accept(), 'X');
                 ServerSidePlayer playerO = new ServerSidePlayer(listener.accept(), 'O');
                 ServerSideGameThreadLess game = new ServerSideGameThreadLess(playerX, playerO);
-                game.doGame();
+                game.start();
             }
         } finally {
             listener.close();

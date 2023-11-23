@@ -4,7 +4,7 @@ package TicTacToeSimplerThreadHandeling;
 /**
 * A two-player game.
 */
-class ServerSideGameThreadLess {
+class ServerSideGameThreadLess extends Thread {
 
     ServerSidePlayer playerX;
     ServerSidePlayer playerO;
@@ -66,7 +66,7 @@ class ServerSideGameThreadLess {
     Checking if a client has won, lost or if there is a tie.
      */
 
-    public void doGame(){
+    public void run(){
 
         playerX.send("WELCOME " + playerX.mark);
         playerX.send("MESSAGE Waiting for opponent to connect");

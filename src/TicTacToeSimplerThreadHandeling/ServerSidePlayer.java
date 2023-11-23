@@ -15,7 +15,7 @@ import java.net.Socket;
 * streams. Since only text is being communicated we use a
 * reader and a writer.
 */
-    class ServerSidePlayer extends Thread {
+    class ServerSidePlayer  {
         char mark;
         ServerSidePlayer opponent;
         Socket socket;
