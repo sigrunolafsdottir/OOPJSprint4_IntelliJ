@@ -5,7 +5,8 @@ import java.io.IOException;
 import java.net.*;
 
 public class TemperatureCollector  {
-    
+
+    //LIstar alla temperaturer
     public static void main(String[] args) throws SocketException, IOException{
         String ip = "234.235.236.237";
         InetAddress iadr = InetAddress.getByName(ip);

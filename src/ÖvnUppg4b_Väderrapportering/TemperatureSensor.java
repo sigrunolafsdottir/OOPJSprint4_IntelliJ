@@ -6,10 +6,11 @@ import java.util.Scanner;
 
 import javax.swing.JOptionPane;
 
+
+//Skickar IN teperaturer
 public class TemperatureSensor {
-    
+
     public static void main(String[] args) throws UnknownHostException, SocketException, IOException, InterruptedException{
-        
         String temperature = "";
         String dataToSend = "";
         String ip = "234.235.236.237";
@@ -22,10 +23,8 @@ public class TemperatureSensor {
         if (city == null || city.length() == 0){  //tar hand om Cancel-tryck
             System.exit(0); 
         }
-        
-      //  MulticastSocket socket = new MulticastSocket(port);
+
         MulticastSocket socket = new MulticastSocket();
-        socket.joinGroup(group, netIf);
         
         while(sc.hasNext()){
             temperature = sc.next();
