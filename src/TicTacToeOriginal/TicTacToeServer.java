@@ -46,10 +46,6 @@ public class TicTacToeServer {
                 game.currentPlayer = playerX;
                 playerX.start();
                 playerO.start();
-
-                //ALternativ approach, lättare trådning
-                //Game2 game2 = new Game2(socket1, socket2);
-
             }
         } finally {
             listener.close();

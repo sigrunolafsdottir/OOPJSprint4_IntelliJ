@@ -17,6 +17,7 @@ class InetAddressDemo
 
         Address = InetAddress.getByName("192.168.68.54");
         System.out.println(Address);
+        System.out.println();
 
         //IP till dn.se
         Address = InetAddress.getByName("dn.se");

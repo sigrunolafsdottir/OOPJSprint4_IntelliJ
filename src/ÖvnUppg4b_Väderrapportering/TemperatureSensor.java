@@ -23,7 +23,8 @@ public class TemperatureSensor {
             System.exit(0); 
         }
         
-        MulticastSocket socket = new MulticastSocket(port);
+      //  MulticastSocket socket = new MulticastSocket(port);
+        MulticastSocket socket = new MulticastSocket();
         socket.joinGroup(group, netIf);
         
         while(sc.hasNext()){
