@@ -13,7 +13,7 @@ import java.util.List;
 
 public class MultiWriter {
 
-    private static List<PrintWriter> writers = new ArrayList<PrintWriter>();
+    private List<PrintWriter> writers = new ArrayList<PrintWriter>();
     
     public void addWriter(PrintWriter p) {
             writers.add(p);

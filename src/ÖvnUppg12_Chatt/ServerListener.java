@@ -9,9 +9,9 @@ import java.net.Socket;
 
 public class ServerListener {
     
-    private static MultiWriter multiWriter = new MultiWriter();
+    private  MultiWriter multiWriter = new MultiWriter();
 
-    public static void main(String[] args) {
+    public ServerListener() {
         try (ServerSocket serverSocket = new ServerSocket(12345);) {
             while (true) {
                 final Socket socketToClient = serverSocket.accept();
@@ -19,7 +19,11 @@ public class ServerListener {
                 clientHandler.start();
             }
         } catch (IOException e) {
-                e.printStackTrace();
+            e.printStackTrace();
         }
+    }
+
+    public static void main(String[] args) {
+        ServerListener sl = new ServerListener();
     }
 }
