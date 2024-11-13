@@ -17,7 +17,7 @@ public class ChatMultiThreaded extends JFrame implements ActionListener {
     String namn;
     InetAddress iadr;
     int port;
-    MulticastSocket so= new MulticastSocket(12540);;
+    MulticastSocket so = new MulticastSocket(12540);
     JTextArea txt = new JTextArea();
     JScrollPane sp = new JScrollPane(txt);
     JTextField skriv = new JTextField();
@@ -31,8 +31,7 @@ public class ChatMultiThreaded extends JFrame implements ActionListener {
         iadr = InetAddress.getByName(gruppadr);
         port = portNr;
         group = new InetSocketAddress(iadr, port);
-        
-        //so = new MulticastSocket(port);
+
         so.joinGroup(group, netIf);
         new MottagareMultiThreaded(so, txt);
         

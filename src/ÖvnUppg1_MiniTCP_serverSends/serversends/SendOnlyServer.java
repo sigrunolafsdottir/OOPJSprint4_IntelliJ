@@ -9,7 +9,7 @@ public class SendOnlyServer {
     
     String output = "Hej svejs i lingonskogen";
     
-        public SendOnlyServer(){
+    public SendOnlyServer(){
         int portNumber = 12345;
 
         try ( 

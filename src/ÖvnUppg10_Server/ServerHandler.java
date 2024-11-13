@@ -8,15 +8,12 @@ import java.net.Socket;
 
 public class ServerHandler {
 
-    public static void main(String[] args) throws IOException {
-        ServerSocket serverSocket = new ServerSocket(12345);
-        while (true) {
-            try {
-                final Socket socketToClient = serverSocket.accept();
+    public static void main(String[] args) throws Exception {
+        try(ServerSocket serverSocket = new ServerSocket(12345);) {
+            while (true) {
+                Socket socketToClient = serverSocket.accept();
                 Server clientHandler = new Server(socketToClient);
                 clientHandler.start();
-            } catch (Exception e) {
-                e.printStackTrace();
             }
         }
     }

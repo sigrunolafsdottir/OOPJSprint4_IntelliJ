@@ -26,7 +26,6 @@ public class ChatSingleThread extends JFrame implements ActionListener {
     JTextArea txt = new JTextArea();
     JScrollPane sp = new JScrollPane(txt);
     JTextField skriv = new JTextField();
-    JButton sluta = new JButton("Koppla ner");
     Timer timer = new Timer(10000, this);
     InetSocketAddress group;
     NetworkInterface netIf = NetworkInterface.getByName("wlan3");
@@ -37,33 +36,30 @@ public class ChatSingleThread extends JFrame implements ActionListener {
         iadr = InetAddress.getByName(gruppadr);
         port = portNr;
         group = new InetSocketAddress(iadr, port);
-        
-        so = new MulticastSocket(port);
 
-        so.joinGroup(group, netIf);
-        sändMedd("UPPKOPPLAD");
-        
         setTitle("Chat "+namn);
         txt.setEditable(false);
-        add(sluta, BorderLayout.NORTH);
         add(sp, BorderLayout.CENTER);
         add(skriv, BorderLayout.SOUTH);
-        sluta.addActionListener(this);
         skriv.addActionListener(this);
         setSize(400, 250);
         setVisible(true);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
+
+        so = new MulticastSocket(port);
+        so.joinGroup(group, netIf);
+        sändMedd("UPPKOPPLAD");
         timer.start();
-        
+
         byte[] data = new byte[1024];
         while(true){
             try{
                 System.out.println("receive-loop: is EventDispatchThread:"
                         + javax.swing.SwingUtilities.isEventDispatchThread());
-                DatagramPacket packet = new DatagramPacket(data, 
+                DatagramPacket packet = new DatagramPacket(data,
                         data.length);
                 so.receive(packet);
-                String medd = new String(data, 0, 
+                String medd = new String(data, 0,
                         packet.getLength());
                     txt.append(medd +"\n");
             }
@@ -92,20 +88,6 @@ public class ChatSingleThread extends JFrame implements ActionListener {
         if(e.getSource() == skriv){
             sändMedd(skriv.getText());
             skriv.setText("");
-        }
-        else if(e.getSource() == sluta){
-            sändMedd("NEDKOPPLAD");
-            try {
-                so.leaveGroup(group, netIf);
-                so.close();
-                dispose();
-                System.exit(0);
-            }
-            catch (IOException ie){
-                so.close();
-                dispose();
-                System.exit(0);
-            }
         }
         else {
             sändMedd("Hej allesammans");
