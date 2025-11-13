@@ -14,7 +14,6 @@ public class QuoteSender {
 
     
     public static void main(String[] args) throws UnknownHostException, SocketException, IOException, InterruptedException{
-        BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
         List<String> quoteList = new ArrayList<>();
         quoteList.add(quote1);
         quoteList.add(quote2);
@@ -24,8 +23,9 @@ public class QuoteSender {
         InetAddress toAdr = InetAddress.getByName("234.235.236.237");
         int toPort = 12540;
         InetSocketAddress socketAdr = new InetSocketAddress(toAdr, toPort);
-        NetworkInterface netIf = NetworkInterface.getByName("wlan1");
+       // NetworkInterface netIf = NetworkInterface.getByName("wireless_32768");
         MulticastSocket socket = new MulticastSocket(12540);
+        //null ok om bara ett nätverksinterface finns
         socket.joinGroup(socketAdr, null);
 
 

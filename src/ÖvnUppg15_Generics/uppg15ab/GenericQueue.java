@@ -4,18 +4,18 @@ import java.util.LinkedList;
 import java.util.List;
 
 
-public class GenericQueue <T> implements IGenericQueue<T> {
+public class GenericQueue <E> implements IGenericQueue<E> {
     
-    private List<T> innerList = new LinkedList<>();
+    private List<E> innerList = new LinkedList<>();
     
     public GenericQueue (){}
     
-    public void put(T t){
-        innerList.add(t);
+    public void put(E e){
+        innerList.add(e);
     }
     
-    public T take(){
-        T temp = innerList.get(0);
+    public E take(){
+        E temp = innerList.get(0);
         innerList.remove(0);
         return temp;
     }

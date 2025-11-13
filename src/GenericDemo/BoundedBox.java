@@ -18,15 +18,15 @@ public class BoundedBox<T extends String> { // T stands for "Type"
 	} 
         
         
-        public static void main(String[] args){
+    void main(String[] args){
             
-            BoundedBox<String> b2 = new BoundedBox<>();
-            b2.set("Meddelande");
-            System.out.println(b2.get());
-            System.out.println(b2.doubleUp());
+        BoundedBox<String> b2 = new BoundedBox<>();
+        b2.set("Meddelande");
+        System.out.println(b2.get());
+        System.out.println(b2.doubleUp());
             
-            //Not working
-            //BoundedBox<Integer> b1 = new BoundedBox<>();
+        //Not working
+        //BoundedBox<Integer> b1 = new BoundedBox<>();
            
         }
         

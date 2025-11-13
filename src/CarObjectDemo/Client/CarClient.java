@@ -51,6 +51,7 @@ public class CarClient {
     } catch (IOException e) {
             System.err.println("Couldn't get I/O for the connection to " +
                 hostName);
+         e.printStackTrace();
             System.exit(1);
     } catch (ClassNotFoundException e) {
         e.printStackTrace();

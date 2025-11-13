@@ -16,8 +16,5 @@ public class OrderedPair <K, V> implements Pair<K, V> {
         
         @Override
 	public V getValue() { return value; } 
-        
-        //Notera att detta kommer inte att funka, utan krockar med befintlig getValue()!
-        //Det gäller ÄVEN om vi avgränsar K och V så att de aldrig kommer att kunna vara av samma typ
-	//public K getValue() { return key; } 
+
 } 
