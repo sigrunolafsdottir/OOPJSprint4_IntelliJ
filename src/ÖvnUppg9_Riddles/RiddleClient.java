@@ -24,7 +24,7 @@ public class RiddleClient {
 
             while ((fromServer = in.readLine()) != null) {
                 System.out.println("Server: " + fromServer);
-                if (fromServer.equals("Bye."))
+                if (fromServer.equals("bye"))
                     break;
                 
                 fromUser = stdIn.readLine();
@@ -41,5 +41,6 @@ public class RiddleClient {
                 hostName);
             System.exit(1);
         }
+        System.exit(0);
     }
 }
