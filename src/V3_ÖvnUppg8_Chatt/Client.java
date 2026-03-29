@@ -9,12 +9,9 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.Socket;
-import javax.swing.JFrame;
+import javax.swing.*;
+
 import static javax.swing.JFrame.EXIT_ON_CLOSE;
-import javax.swing.JOptionPane;
-import javax.swing.JScrollPane;
-import javax.swing.JTextArea;
-import javax.swing.JTextField;
 
 
 public class Client  extends JFrame implements ActionListener {
@@ -39,25 +36,30 @@ public class Client  extends JFrame implements ActionListener {
         
         String hostName = "127.0.0.1";  //localhost
         int portNumber = 12345;
- 
-        try{
-            Socket socket = new Socket(hostName, portNumber);
-            out = new PrintWriter(socket.getOutputStream(), true);
-            in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
-            
-            String fromServer;
 
-            while ((fromServer = (String)in.readLine()) != null) {
-                //Nu består vårt protokoll bara av ett state, väntan på meddelanden
-                //om vi hade haft flera hade det varit läge att kolla state här
-                if (fromServer.startsWith("MESSAGE")){
-                    txt.append(fromServer.substring(8) + "\n");
+        Thread.startVirtualThread(() -> {
+
+            try {
+                Socket socket = new Socket(hostName, portNumber);
+                out = new PrintWriter(socket.getOutputStream(), true);
+                in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+
+                String fromServer;
+
+                while ((fromServer = (String) in.readLine()) != null) {
+                    //Nu består vårt protokoll bara av ett state, väntan på meddelanden
+                    //om vi hade haft flera hade det varit läge att kolla state här
+                    if (fromServer.startsWith("MESSAGE")) {
+                        final String finalFromServer = fromServer;
+                        SwingUtilities.invokeLater(() ->
+                            txt.append(finalFromServer.substring(8) + "\n")
+                        );
+                    }
                 }
+            } catch (Exception e) {
+                e.printStackTrace();
             }
-        }
-        catch (Exception e){
-            e.printStackTrace();
-        }
+        });
     }
 
     //här hamnar vi när vi skrivit i textfältet och tryckt på enter
@@ -72,7 +74,8 @@ public class Client  extends JFrame implements ActionListener {
     }
     
     public static  void main(String[] args){
-        Client c = new Client();
+        //Client c = new Client();
+        SwingUtilities.invokeLater(Client::new);
     }
 
 }

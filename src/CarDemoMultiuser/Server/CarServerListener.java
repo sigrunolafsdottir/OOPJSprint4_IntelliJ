@@ -14,7 +14,8 @@ public class CarServerListener {
             while (true) {
                 Socket socketToClient = serverSocket.accept();
 
-                MultiUserCarServer clientHandler = new MultiUserCarServer(socketToClient);
+                MultiUserCarServer clientHandler
+                        = new MultiUserCarServer(socketToClient);
                 clientHandler.start();
 
             }

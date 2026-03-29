@@ -47,7 +47,7 @@ public class Client  extends JFrame implements ActionListener {
             
             String fromServer;
 
-            while ((fromServer = (String)in.readLine()) != null) {
+            while ((fromServer = in.readLine()) != null) {
                 txt.append(fromServer+ "\n");
             }
         }

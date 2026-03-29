@@ -40,6 +40,7 @@ private Socket socket;
 private BufferedReader in;
 private PrintWriter out;
 
+//iom att vi blockar klienten när det inte är dens tur riskerar vi inte att få meddelande från "fel" klient
 private boolean blocked = false;
 
 /**
@@ -66,7 +67,7 @@ public TicTacToeClient(String serverAddress) throws Exception {
             board[i].addMouseListener(new MouseAdapter() {
                 public void mousePressed(MouseEvent e) {
                     currentSquare = board[j];
-                    //System.out.println("sending MOVE "+j+" "+ i);
+                    //sending messages to server
                     if (!blocked)
                         out.println("MOVE " + j);}});
 

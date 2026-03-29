@@ -26,8 +26,8 @@ public class QuoteSender {
         quoteList.add(quote3);
         int listCounter = 0;
         
-        InetAddress toAdr = InetAddress.getLocalHost();
-        int toPort = 55555;
+        InetAddress toAdr = InetAddress.getLocalHost();  // 192.123.123.1
+        int toPort = 55556;
         DatagramSocket socket = new DatagramSocket();
         while(true){
             byte[] data = quoteList.get(listCounter).getBytes();

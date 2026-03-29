@@ -9,7 +9,7 @@ import java.net.SocketException;
 public class QuoteReceiver  {
     
     public static void main(String[] args) throws SocketException, IOException{
-        int minPort = 55555;
+        int minPort = 55556;
         DatagramSocket socket = new DatagramSocket(minPort);
         byte[] data = new byte[256];
         while(true){

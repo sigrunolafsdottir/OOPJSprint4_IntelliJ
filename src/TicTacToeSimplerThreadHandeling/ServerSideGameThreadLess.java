@@ -80,6 +80,7 @@ class ServerSideGameThreadLess extends Thread {
         currentPlayer = playerX;
 
         while (true) {
+            //klienterna blockas växelvis på klientsidan, därför vet vi att vi får data från rätt klient
             command = currentPlayer.receive();  //ta emot från klient
 
             if (command.startsWith("MOVE")) {

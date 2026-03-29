@@ -17,7 +17,8 @@ public class ServerListener {
             try {
                 final Socket socketToClient = serverSocket.accept();
                 Handler clientHandler = new Handler(socketToClient, multiWriter);
-                clientHandler.start();
+                //clientHandler.start();
+                Thread.startVirtualThread(clientHandler);
             } catch (IOException e) {
                 e.printStackTrace();
             }

@@ -9,7 +9,7 @@ import java.io.PrintWriter;
 import java.net.Socket;
 
 
-public class Handler extends Thread{
+public class Handler implements Runnable {
     
     private Socket socket;
     private MultiWriter multiWriter;
@@ -21,7 +21,8 @@ public class Handler extends Thread{
         this.socket = socket;
         this.multiWriter = multiWriter;
     }
-    
+
+    @Override
     public void run(){
         
          try{

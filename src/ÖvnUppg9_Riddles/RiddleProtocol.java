@@ -24,6 +24,15 @@ public class RiddleProtocol {
             theOutput = clues[currentRiddle];
             state = SENTRIDDLE;
         }
+        else if (state == SENTRIDDLE) {
+            if (theInput.equalsIgnoreCase(answers[currentRiddle])) {
+                theOutput = "Rätt, vill du ha en till? (svara ja eller nej)";
+            } else {
+                theOutput = "Fel, vill du ha en till? (svara ja eller nej)";
+            }
+            state = SENTANSWER;
+            currentRiddle++;
+        }
         else if (state == SENTANSWER) {
             if (theInput.equalsIgnoreCase("nej")){
                 theOutput = "bye";
@@ -32,14 +41,6 @@ public class RiddleProtocol {
                 theOutput = clues[currentRiddle];
                 state = SENTRIDDLE;
             }
-        } else if (state == SENTRIDDLE) {
-            if (theInput.equalsIgnoreCase(answers[currentRiddle])) {
-                theOutput = "Rätt, vill du ha en till? (svara ja eller nej)";
-            } else {
-                theOutput = "Fel, vill du ha en till? (svara ja eller nej)";
-            }
-            state = SENTANSWER;
-            currentRiddle++;
         }
         return theOutput;
     }

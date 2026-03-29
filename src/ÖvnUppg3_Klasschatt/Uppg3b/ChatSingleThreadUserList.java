@@ -24,7 +24,7 @@ public class ChatSingleThreadUserList extends JFrame implements ActionListener {
     JScrollPane sp = new JScrollPane(txt);
     JTextField skriv = new JTextField();
     InetSocketAddress group;
-    NetworkInterface netIf = NetworkInterface.getByName("wlan3");
+    //NetworkInterface netIf = NetworkInterface.getByName("wlan3");
 
     //A data structure that only allows one instance of each string
     //thus removing all duplicate names
@@ -56,7 +56,7 @@ public class ChatSingleThreadUserList extends JFrame implements ActionListener {
         setDefaultCloseOperation(EXIT_ON_CLOSE);
 
         so = new MulticastSocket(port);
-        so.joinGroup(group, netIf);
+        so.joinGroup(group, null);
         sendMess("UPPKOPPLAD");
         sendMess("NEWUSER");
 
